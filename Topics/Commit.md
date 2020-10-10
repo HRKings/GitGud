@@ -1,5 +1,16 @@
 # The Commit
 
+**Table of Contents:**
+
+- [The Commit](#the-commit)
+	- [1 - How to make a good commit message](#1---how-to-make-a-good-commit-message)
+		- [1.1 - Tags](#11---tags)
+		- [1.2 - Flags](#12---flags)
+		- [1.3 - Subject](#13---subject)
+		- [1.4 - Body](#14---body)
+		- [1.5 - Footer](#15---footer)
+	- [2 - An example of a good commit message](#2---an-example-of-a-good-commit-message)
+
 Commits are an essential part of Git, and this session will guide you through some practices about them.
 
 The first thing that you need to understand about commits is that they are a snapshot of your repository in any given time, serving as a way to get back into a previous version if you need to, for example, if your code breaks.
