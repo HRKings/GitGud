@@ -99,7 +99,7 @@ This is the line that will show in the commit history, and contains a short desc
 
 - The subject is always the first line of the commit message;
 - It shout be around 50 characters but with a limit of 80;
-- It should begin with a capital letter and be written in the imperative (eg.: **"Add"** instead of *"Addeded"* or *"Adds"*).
+- It should begin with a capital letter and be written in the imperative (eg.: **"Add"** instead of *"Added"* or *"Adds"*).
 
 ### 1.4 - Body
 
