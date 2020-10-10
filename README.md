@@ -10,5 +10,11 @@ While there is no "right" way to use Git, this repository provides good foundati
 
 ## Content Table
 
-* [Commit Guide](Topics/Commit.md)
-* [Pull Request Guide](Topics/Pull_Request.md)
+**Git:**
+
+* [Commit Guide](Topics/Commit.md) : How to commits and commit messages
+* [Pull Request Guide](Topics/Pull_Request.md) : How to pull requests and feedback
+
+**GitGud Flow:**
+
+* [GitGud Flow Guide](Flow/GitGud_Flow.md) : An easy branching model focused CI/CD and collaboration
