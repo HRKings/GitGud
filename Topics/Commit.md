@@ -8,7 +8,7 @@ The first thing that you need to understand about commits is that they are a sna
 
 Small commits will also help understanding the history of the repository. Imagine a commit labeled *"Added method1"* and you open it to see the changes and boom, you discover that it actually adds 10 methods, it's not a pleasant surprise.
 
-GitFlow will help you in this, and its explained [here](Git_Flow.md)
+GitGud Flow will help you in this, and its explained [here](../Flow/GitGud_Flow.md)
 
 **Make good commit messages**, this is a longer topic that will be discussed in the subsection bellow.
 
