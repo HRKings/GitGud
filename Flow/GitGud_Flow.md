@@ -1,5 +1,17 @@
 # The GitGud Flow
 
+**Table of Contents:**
+
+- [The GitGud Flow](#the-gitgud-flow)
+	- [1 - The Premise](#1---the-premise)
+		- [1.1 - Stable](#11---stable)
+		- [1.2 - Master](#12---master)
+		- [1.3 - WIP](#13---wip)
+		- [1.4 - Fix](#14---fix)
+		- [1.5 - Task](#15---task)
+		- [1.6 - Hotfix](#16---hotfix)
+		- [1.7 - Optional Versioning Branches](#17---optional-versioning-branches)
+
 GitGud Flow is a branching model that helps maintaining your code clean and reliable in case of something breaking. This document will guide you in using the GitGud Flow and the commands involved, remember that this only a model and you can use this only as a document.
 
 GitGud flow is heavily based from the standard Git Flow, but with some differences. First of all, it is a lot simpler. You merge into master directly and then use another branch to CD. Some naming was also changed to make it more broader and comprehensive.
@@ -116,7 +128,7 @@ Fix branches are used to fix bugs, missing resources found in the master branch.
 
 ### 1.5 - Task
 
-This type of branch is only used when updating dependencies,frameworks, build tasks and other updates required.
+This type of branch is only used when updating dependencies, frameworks, build tasks and other updates required.
 
 **General Rules:**
 
