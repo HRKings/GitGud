@@ -34,7 +34,7 @@ Obs.: Use your personal projects as a learning, write good commit messages and y
 One good structure for commit messages are:
 
 ```Markdown
-tag/flag : Subject
+[tag]{flag (optional)} Subject
 
 Body (Optional and not needed in this model)
 
