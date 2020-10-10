@@ -78,6 +78,6 @@ Responding to feedback is essential, but you need to keep in mind somethings:
 
 - Offer clarification and explain the decisions you made to reach a solution in question.
 
-- Link to any follow up commits or Pull Requests. (“Good call! Done in #123)
+- Link to any follow up commits or Pull Requests. (“Good call! Done in #123")
 
 - If there is growing confusion or debate, ask yourself if written word is still the best form of communication. Talk virtually face-to-face, invite people to a voice call and at same time post a follow-up to summarize any discussion made outside the original platform, this is useful for other who are following along, now or in the future.
