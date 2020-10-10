@@ -24,7 +24,7 @@ The basic working of this flow is:
 1. You branch of the master branch;
 2. You make modifications;
 3. You merge back into master branch once is ready;
-4. You the merge master branch into the stable branch once all the changes are complete.
+4. You then merge master branch into the stable branch once all the changes are complete.
 
 Bellow is a more detailed explanation of what are those types and how to use the branches.
 
@@ -70,7 +70,7 @@ This branch is where all the development progress will be made, all features, fi
 
 - Lower case;
 - Snake case;
-- This can be anything you want, and usually is left to the git inti default.
+- This can be anything you want, and usually is left to the git into default.
 
 ### 1.3 - WIP
 
