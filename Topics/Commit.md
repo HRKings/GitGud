@@ -47,14 +47,14 @@ Tags are usually the first thing in a commit message, they hit to what the commi
 
 Tags and their usage cases:
 
-- `feature` : A new feature and small additions;
-- `fix` : A bugfix or hotfix
-- `style` : Any change in styling, layout, css, etc.;
-- `refactor` : Any code refactoring, cleanup, formatting, improvements in code style and readability;
-- `test` : Adding, changing or refactoring tests, with no production code change;
-- `docs` : Changes in documentation, readme, guides, etc.;
-- `chore` : Updating dependencies, package manager configs, build tasks, etc;
-- `misc` : Anything not covered by the above categories.
+- `[feature]` : A new feature and small additions;
+- `[fix]` : A bugfix or hotfix
+- `[style]` : Any change in styling, layout, css, design, etc.;
+- `[refactor]` : Any code refactoring, cleanup, formatting, improvements in code style and readability;
+- `[test]` : Adding, changing or refactoring tests, with no production code change;
+- `[docs]` : Changes in documentation, readme, guides, etc.;
+- `[chore]` : Updating dependencies, package manager configs, build tasks, etc;
+- `[misc]` : Anything not covered by the above categories.
 
 **Structure:**
 
@@ -68,11 +68,11 @@ Flags are indicatives that help understand better the code or to take precaution
 
 Flags and their usages:
 
-- `!!!` : *Breaking change* - Significant changes in software architecture and/or logic, that affects existing code. **If present, needs to be the first flag**;
-- `db` : Changes that require database structure or data to be updated;
-- `api` : Changes that modify the API usage, models or structure.
-- `ux` : Change in user experience - Anything that needs the user to relearn to use a feature;
-- `wip` : *Work In Progress* - All commits related to a feature/change will have this flag, and will only be removed when the final version of a feature/change is available. Commits marked as WIP can never be merged.
+- `{!!!}` : *Breaking change* - Significant changes in software architecture and/or logic, that affects existing code. **If present, needs to be the first flag**;
+- `{db}` : Changes that require database structure or data to be updated;
+- `{api}` : Changes that modify the API usage, models or structure.
+- `{ux}` : Change in user experience - Anything that needs the user to relearn to use a feature;
+- `{wip}` : *Work In Progress* - All commits related to a feature/change will have this flag, and will only be removed when the final version of a feature/change is available. Commits marked as WIP can never be merged.
 
 **Structure:**
 
