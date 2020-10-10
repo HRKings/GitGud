@@ -56,7 +56,7 @@ Feedback is the one of the main objectives of the Pull Requests, and offering go
 
 - Explain the reasons of why the code should be changed. If they are not in line with the repository style or if it is a personal preference, for example.
 
-- Offer ways to simply and improve the code, try to learn together.
+- Offer ways to simplify and improve the code, try to learn together.
 
 - Be humble, everyone is in this together.
 
@@ -74,7 +74,7 @@ Responding to feedback is essential, but you need to keep in mind somethings:
 
 - Consider leading with a expression of appreciation, this incentives people to give you more feedback.
 
-- Ask for clarification, you can say, for example, "I didn't understand, can you clarify ?".
+- Ask for clarification, you can say, for example, "I didn't understand, can you clarify... ?".
 
 - Offer clarification and explain the decisions you made to reach a solution in question.
 
