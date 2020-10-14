@@ -1,4 +1,4 @@
-# GitGud : A guide to how use Git
+# GitGud : A collection of comprehensive guides, guidelines and naming conventions for Git
 
 Git, without doubt is one of the greatest development tools in existence, but learning the right way is a difficult thing. This repository is an easy way to comprehend some git functionalities and workflow, changelogs and versioning.
 
