@@ -6,6 +6,10 @@ It will assume that you already have some experience with Git, and understand ho
 
 While there is no "right" way to use Git, this repository provides good foundations based on GitFlow, official Git guides and some other repositories and articles found on the internet, fell free to take from here what you need.
 
+## History
+
+GitGud was created to be a template and a collection of rules to assist in Git usage, while remaining beginner friendly. It provides not only technical rules, but also best practices to achieve a friendlier workspace.
+
 ----
 
 ## Content Table
