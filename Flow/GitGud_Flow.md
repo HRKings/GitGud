@@ -24,8 +24,13 @@ When using the Git Flow you need to understand what you can do and how it works.
 
 Here is the list of branch types in GitGud Flow:
 
+**Permanent branches:**
+
 - *Stable*
 - *Master*
+
+**Working branches:**
+
 - WIP
 - Fix
 - Task
