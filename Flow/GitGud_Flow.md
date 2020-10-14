@@ -61,7 +61,7 @@ This is your release ready branch, here will be only the latest production ready
 
 - You only merge from master, once all the changes from a version are ready;
 - You can only merge hotfix branches;
-- When merging, you should make a Pull Request with a changelog and squash the commits.
+- When merging, you should always make a Pull Request with a changelog and squash the commits.
 
 **Naming:**
 
@@ -85,7 +85,7 @@ This branch is where all the development progress will be made, all features, fi
 - You only merge complete wip branches;
 - You can merge any fix;
 - You can merge any task branch;
-- When merging you should make a Pull Request with a changelog.
+- When merging you should make a Pull Request with a changelog if working with a team, if not merge the branch directly.
 
 **Naming:**
 
