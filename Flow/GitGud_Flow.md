@@ -16,6 +16,8 @@ GitGud Flow is a branching model that helps maintaining your code clean and reli
 
 GitGud flow is heavily based from the standard Git Flow, but with some differences. First of all, it is a lot simpler. You merge into master directly and then use another branch to CD. Some naming was also changed to make it more broader and comprehensive.
 
+**Disclaimer:** This guide use the [Commit Guide](../Topics/Commit.md) and the [Pull Request Guide](../Topics/Pull_Request.md) from GitGud. Use them as a base anytime it references any of these two features.
+
 ## 1 - The Premise
 
 When using the Git Flow you need to understand what you can do and how it works.
@@ -53,7 +55,8 @@ This is your release ready branch, here will be only the latest production ready
 **Merging Rules:**
 
 - You only merge from master, once all the changes from a version are ready;
-- You can only merge hotfix branches.
+- You can only merge hotfix branches;
+- When merging, you should make a Pull Request with a changelog and squash the commits.
 
 **Naming:**
 
@@ -76,7 +79,8 @@ This branch is where all the development progress will be made, all features, fi
 
 - You only merge complete wip branches;
 - You can merge any fix;
-- You can merge any task branch.
+- You can merge any task branch;
+- When merging you should make a Pull Request with a changelog.
 
 **Naming:**
 
