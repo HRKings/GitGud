@@ -31,3 +31,4 @@ GitGud was created to be a template and a collection of rules to assist in Git u
 **GitGud Flow:**
 
 - [GitGud Flow Guide](Flow/GitGud_Flow.md) : An easy branching model focused CI/CD and collaboration
+- [GitGud Flow Commands Guide](Flow/GitGud_Flow_HowTo.md) : How to follow the GitGud Flow from the command line
