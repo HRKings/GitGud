@@ -181,6 +181,22 @@ This branch is a priority fix, when you find a serious bug in the stable branch 
 Those are branches that are not present in the model, but can be used if needed. For example:
 
 - A beta branch;
-- A public_test branch.
+- A public_test branch;
+- A release candidate branch.
 
-All the rules from the stable branch applies here.
+**General Rules:**
+
+- **You never commit directly to this branch;**
+- This branch is deleted after its respective version reaches end of life;
+
+**Merging Rules:**
+
+- You only merge from master, once all the changes from a version are ready;
+- You can only merge hotfix branches;
+- When merging, you should make a Pull Request with a changelog and squash the commits.
+
+**Naming:**
+
+- Lower case;
+- Snake case;
+- Descriptive and clear that it is only for a specific version.
