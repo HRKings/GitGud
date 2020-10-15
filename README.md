@@ -35,4 +35,5 @@ GitGud was created to be a template and a collection of rules to assist in Git u
 
 **Versioning:**
 
+- [Versioning Guide](Versioning/Versioning_Guide.md) : A comprehensive guide to SemVer
 - [Changelog Guideline](Versioning/Changelog_Guide.md) : An easy changelog model based on the *Keep a Changelog*
