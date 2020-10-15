@@ -25,8 +25,8 @@ GitGud was created to be a template and a collection of rules to assist in Git u
 
 **Git:**
 
-- [Commit Guidelines](Topics/Commit.md) : Commit rules and commit messages model
-- [Pull Request Guidelines](Topics/Pull_Request.md) : Pull Requests model and best practices
+- [Commit Guidelines](Topics/Commit.md) : Commit rules and commit messages convention
+- [Pull Request Guidelines](Topics/Pull_Request.md) : Pull Requests convention and best practices
 
 **GitGud Flow:**
 
