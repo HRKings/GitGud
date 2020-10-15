@@ -25,15 +25,15 @@ GitGud was created to be a template and a collection of rules to assist in Git u
 
 **Git:**
 
-- [Commit Guide](Topics/Commit.md) : How to commits and commit messages
-- [Pull Request Guide](Topics/Pull_Request.md) : How to pull requests and feedback
+- [Commit Guidelines](Topics/Commit.md) : Commit rules and commit messages model
+- [Pull Request Guidelines](Topics/Pull_Request.md) : Pull Requests model and best practices
 
 **GitGud Flow:**
 
-- [GitGud Flow Guide](Flow/GitGud_Flow.md) : An easy branching model focused CI/CD and collaboration
+- [GitGud Flow Model](Flow/GitGud_Flow.md) : An easy branching model focused CI/CD and collaboration
 - [GitGud Flow Commands Guide](Flow/GitGud_Flow_HowTo.md) : How to follow the GitGud Flow from the command line
 
 **Versioning:**
 
 - [Versioning Guide](Versioning/Versioning_Guide.md) : A comprehensive guide to SemVer
-- [Changelog Guideline](Versioning/Changelog_Guide.md) : An easy changelog model based on the *Keep a Changelog*
+- [Changelog Model](Versioning/Changelog_Model.md) : An easy changelog model based on the *Keep a Changelog*
