@@ -8,7 +8,7 @@ While there is no "right" way to use Git, this repository provides good foundati
 
 ## History
 
-GitGud was created to be a template and a collection of rules to assist in Git usage, while remaining beginner friendly. It provides not only technical rules, but also best practices to achieve a friendlier workspace.
+GitGud was created to be a template and a collection of rules to assist in Git usage, while remaining beginner friendly. It provides not only technical rules, but also best practices to achieve a friendlier workspace. It also is a one stop for quick references about those rules and practices, so you don't need to open more than one site if you need to remember how to structure your commits and pull requests.
 
 ## Reasons to use GitGud
 
