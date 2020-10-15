@@ -1,5 +1,7 @@
 # How to GitGud Flow
 
+**Table of Contents:**
+
 - [How to GitGud Flow](#how-to-gitgud-flow)
 	- [1 - Creating branches](#1---creating-branches)
 		- [1.1 - Creating the Stable branch](#11---creating-the-stable-branch)
