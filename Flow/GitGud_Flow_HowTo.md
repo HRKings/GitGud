@@ -83,6 +83,8 @@ git checkout master
 git merge branch_name
 ```
 
+**Disclaimer:** *When working with a team is advised that you always merge via Pull Request.*
+
 ### 3.1 - Merging a Hotfix branch
 
 Hotfix branches are special in the sense that they need to be merged both into stable and into master.
