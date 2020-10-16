@@ -24,9 +24,12 @@ Creating branches is one of the main thing you will be doing while developing, t
 This command creates an empty Stable branch, and push it to the remote.
 
 ```Bash
-git branch stable
-git push -u origin stable
+git checkout --orphan stable
+git commit --allow-empty -m "[misc] Stable branch start"
+git push origin stable
 ```
+
+This will create a stable branch with only one empty commit.
 
 #### 1.1.1 - Creating the stable branch on a existing project
 
@@ -39,7 +42,7 @@ git commit --allow-empty -m "[misc] Stable branch start"
 git push origin stable
 ```
 
-This will create a stable branch with only one empty commit.
+This will create a stable branch, remove any staged files, create an empty commit and push it to the remote.
 
 ### 1.2 - Creating a Working branch
 
