@@ -5,6 +5,7 @@
 - [How to GitGud Flow](#how-to-gitgud-flow)
 	- [1 - Creating branches](#1---creating-branches)
 		- [1.1 - Creating the Stable branch](#11---creating-the-stable-branch)
+			- [1.1.1 - Creating the stable branch on a existing project](#111---creating-the-stable-branch-on-a-existing-project)
 		- [1.2 - Creating a Working branch](#12---creating-a-working-branch)
 		- [1.3 - Creating a Hotfix branch](#13---creating-a-hotfix-branch)
 	- [2 - Publishing a branch](#2---publishing-a-branch)
@@ -26,6 +27,19 @@ This command creates an empty Stable branch, and push it to the remote.
 git branch stable
 git push -u origin stable
 ```
+
+#### 1.1.1 - Creating the stable branch on a existing project
+
+If you already have a project and want to opt for GitGud Flow model, you need an empty stable branch, you can create one using:
+
+```Bash
+git checkout --orphan stable
+git rm -rf .
+git commit --allow-empty -m "[misc] Stable branch start"
+git push origin stable
+```
+
+This will create a stable branch with only one empty commit.
 
 ### 1.2 - Creating a Working branch
 
