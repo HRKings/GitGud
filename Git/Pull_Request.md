@@ -3,12 +3,14 @@
 **Table of Contents:**
 
 - [GitGud: Pull Request Sub-Model](#gitgud-pull-request-sub-model)
-	- [1 - How to write a good Pull Request](#1---how-to-write-a-good-pull-request)
-		- [1.1 - Title](#11---title)
-		- [1.2 - Body](#12---body)
-		- [1.3 - The Footer](#13---the-footer)
-	- [2 - How to offer good feedback](#2---how-to-offer-good-feedback)
-	- [3 - How to respond to feedback](#3---how-to-respond-to-feedback)
+	- [1 - Guidelines](#1---guidelines)
+		- [1.1 - Writing Pull Requests Guidelines](#11---writing-pull-requests-guidelines)
+			- [1.1.1 - Title Guidelines](#111---title-guidelines)
+			- [1.1.2 - Body Guidelines](#112---body-guidelines)
+			- [1.1.3 - Footer Guidelines](#113---footer-guidelines)
+	- [2 - Code of Conduct](#2---code-of-conduct)
+		- [2.1 - Feedback Code of Conduct](#21---feedback-code-of-conduct)
+		- [2.2 - Feedback Response Code of Conduct](#22---feedback-response-code-of-conduct)
 
 ---
 
@@ -16,17 +18,23 @@ Pull Requests, or PRs, are the main to share your changes with other developers 
 
 They are also a way to merge changes from a fork into the main repository when contributing to other projects.
 
-## 1 - How to write a good Pull Request
+Pull Requests are also required by the [GitGud Flow Sub-Model](../Flow/GitGud_Flow.md).
 
-When writing a pull request you need to make sure that other people understand what changes you are proposing.
+## 1 - Guidelines
 
-### 1.1 - Title
+Those are general rules that helps to keep Pull Requests more readable and easy to follow, making sure that people understand what changes you are proposing.
+
+### 1.1 - Writing Pull Requests Guidelines
+
+When writing Pull Requests you need to pay attention to three things : the Title, the Body and the Footer. Bellow are the guidelines about each of them.
+
+#### 1.1.1 - Title Guidelines
 
 The title is a short description of what the Pull Request proposes, keep it short and informative.
 
 You can also put some tags and flags in the title to give more information at glance. In which you can use the same rules proposed in the [Commit Message Style Guide](Commit.md), but is recommended to use the labeling feature of your platform.
 
-### 1.2 - Body
+#### 1.1.2 - Body Guidelines
 
 Here is where you can really explain why you made those changes, put bullet list and let others know why those changes are important.
 
@@ -44,11 +52,20 @@ Here is where you can really explain why you made those changes, put bullet list
 
 - If the body gets too long, put a TL;DR on the top so people can get a briefing of what was wrote.
 
-### 1.3 - The Footer
+#### 1.1.3 - Footer Guidelines
 
-The footer is where you can close or reference more issues. A `Resolve #123` would close the issue numbered 123 when the Pull Request were approved.
+The footer is where you can close or reference more issues. A `Resolve #123` would close the issue numbered 123 when the Pull Request were approved. You can also reference or close multiple issues, like so:
 
-## 2 - How to offer good feedback
+```Markdown
+Resolves #123 #456 #789
+See also #987 #654 #321
+```
+
+## 2 - Code of Conduct
+
+When working with multiple collaborators, it's important to remember that people are more valuable than the code, so always try to keep everything friendly and positive.
+
+### 2.1 - Feedback Code of Conduct
 
 Feedback is the one of the main objectives of the Pull Requests, and offering good feedback can improve a lot the quality of the code and the repository in general.
 
@@ -72,7 +89,7 @@ Feedback is the one of the main objectives of the Pull Requests, and offering go
 
 - Always aim to be develop professional skills and incentive a good peaceful discussion, develop group knowledge and product quality.
 
-## 3 - How to respond to feedback
+### 2.2 - Feedback Response Code of Conduct
 
 Responding to feedback is essential, but you need to keep in mind somethings:
 
