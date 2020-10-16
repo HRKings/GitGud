@@ -3,29 +3,33 @@
 **Table of Contents:**
 
 - [GitGud: Commit Sub-Model](#gitgud-commit-sub-model)
-	- [1 - How to make a good commit message](#1---how-to-make-a-good-commit-message)
-		- [1.1 - Tags](#11---tags)
-		- [1.2 - Flags](#12---flags)
+	- [1 - Best Practices](#1---best-practices)
+	- [2 - Commit Message Model](#2---commit-message-model)
+		- [1.1 - Tag](#11---tag)
+			- [1.1.1 - Tag Convention](#111---tag-convention)
+		- [1.2 - Flag](#12---flag)
+			- [1.2.1 - Flag Convention](#121---flag-convention)
 		- [1.3 - Subject](#13---subject)
-		- [1.4 - Body](#14---body)
-		- [1.5 - Footer](#15---footer)
-	- [2 - An example of a good commit message](#2---an-example-of-a-good-commit-message)
+			- [1.3.1 - Subject Convention](#131---subject-convention)
+		- [1.4 - Footer](#14---footer)
+			- [1.4.1 - Footer Convention](#141---footer-convention)
+	- [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
 
 ---
 
-Commits are an essential part of Git, and this session will guide you through some practices about them.
+This sub-model aims to provide best practices, naming conventions and guidelines about commits, as they are the essence of Git.
 
-The first thing that you need to understand about commits is that they are a snapshot of your repository in any given time, serving as a way to get back into a previous version if you need to, for example, if your code breaks.
+## 1 - Best Practices
 
-**Make small commits**, instead of waiting for too many changes to be made, this will ensure that you can go back in time if needed without compromising your code or losing big chunks of changes.
+Commits are a snapshot of your repository in any given time, serving as a way to get back into a previous version if you need to, for example, if your code breaks. So, two best practices apply on them:
 
-Small commits will also help understanding the history of the repository. Imagine a commit labeled *"Added method1"* and you open it to see the changes and boom, you discover that it actually adds 10 methods, it's not a pleasant surprise.
+- **Make small commits**, instead of waiting for too many changes to be made, this will ensure that you can go back in time if needed without compromising your code or losing big chunks of changes. 
+  - Small commits will also help understanding the history of the repository. Imagine a commit labeled *"Added method1"* and you open it to see the changes and you discover that it actually adds 10 methods, it's not a pleasant surprise.
+  - GitGud Flow will help you in this, and its explained [here](../Flow/GitGud_Flow.md)
 
-GitGud Flow will help you in this, and its explained [here](../Flow/GitGud_Flow.md)
+- **Make good commit messages**, this is a longer topic that will be discussed in the subsection bellow.
 
-**Make good commit messages**, this is a longer topic that will be discussed in the subsection bellow.
-
-## 1 - How to make a good commit message
+## 2 - Commit Message Model
 
 Commit messages are short descriptions of the changes you made in the commit.
 
@@ -33,17 +37,15 @@ Writing good ones will ensure that you and the people that collaborate in a proj
 
 Obs.: Use your personal projects as a learning, write good commit messages and you will get used to it.
 
-One good structure for commit messages are:
+The default template provided by this sub-model is the following:
 
 ```Markdown
 [tag]{flag (optional)} Subject
 
-Body (Optional and not needed in this model)
-
 Footer (Optional)
 ```
 
-### 1.1 - Tags
+### 1.1 - Tag
 
 Tags are usually the first thing in a commit message, they hit to what the commit is about, and ease searching later.
 
@@ -58,15 +60,15 @@ Tags and their usage cases:
 - `[chore]` : Updating dependencies, package manager configs, build tasks, etc;
 - `[misc]` : Anything not covered by the above categories.
 
-**Structure:**
+#### 1.1.1 - Tag Convention
 
 - Tags goes before everything;
 - Tags need to be encased in square brackets `[]`;
 - They are always written in lower case.
 
-### 1.2 - Flags
+### 1.2 - Flag
 
-Flags are indicatives that help understand better the code or to take precautions.
+Flags are short symbols or abbreviations that help understand better the code or to take precautions when pulling this changes.
 
 Flags and their usages:
 
@@ -76,7 +78,7 @@ Flags and their usages:
 - `{ux}` : Change in user experience - Anything that needs the user to relearn to use a feature;
 - `{wip}` : *Work In Progress* - All commits related to a feature/change will have this flag, and will only be removed when the final version of a feature/change is available. Commits marked as WIP can never be merged.
 
-**Structure:**
+#### 1.2.1 - Flag Convention
 
 - Flags goes after the tag;
 - Flags need to be encased in curly braces `{}`;
@@ -97,33 +99,22 @@ Example of tag usage:
 
 This is the line that will show in the commit history, and contains a short descriptive message about the changes.
 
-**Structure:**
+#### 1.3.1 - Subject Convention
 
 - The subject is always the first line of the commit message;
 - It shout be around 50 characters but with a limit of 80;
 - It should begin with a capital letter and be written in the imperative (eg.: **"Add"** instead of *"Added"* or *"Adds"*).
 
-### 1.4 - Body
-
-The body is a detailed description of the changes you made and why you made them. Commits usually are not complex enough that they need a body, and they **should not** need one if you are following this model because the changes are small ones at once.
-
-**Structure:**
-
-- The body needs to be separated from the subject by one blank line;
-- It needs to start with a capital letter;
-- Each line should have no more than 70 characters;
-- Bullet points are made with an asterisk `*`;
-
-### 1.5 - Footer
+### 1.4 - Footer
 
 The footer is optional and used when a issue/bug tracker is used. It is used to reference/close an bug/issue ID.
 
-**Structure:**
+#### 1.4.1 - Footer Convention
 
 - The footer is only used when a issue/bug tracker is in use on the project;
 - It should be separated from the body or subject by one blank line.
 
-## 2 - An example of a good commit message
+## 3 - An example of a good commit message
 
 ```XML
 [feature]{!!!}{wip} Around 50 characters to a 80 limit
@@ -137,7 +128,7 @@ Resolves: #123
 See also: #456, #789
 ```
 
-Or more conventional and practical examples:
+Or more conventional and practical example:
 
 ```Markdown
 [docs] Fix typo in README.md
