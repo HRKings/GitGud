@@ -1,8 +1,8 @@
-# The GitGud Flow
+# GitGud Flow : Branching Sub-Model
 
 **Table of Contents:**
 
-- [The GitGud Flow](#the-gitgud-flow)
+- [GitGud Flow : Branching Sub-Model](#gitgud-flow--branching-sub-model)
 	- [1 - The Premise](#1---the-premise)
 		- [1.1 - Stable](#11---stable)
 		- [1.2 - Master](#12---master)
@@ -11,6 +11,8 @@
 		- [1.5 - Task](#15---task)
 		- [1.6 - Hotfix](#16---hotfix)
 		- [1.7 - Optional Versioning Branches](#17---optional-versioning-branches)
+
+---
 
 GitGud Flow is a branching model that helps maintaining your code clean and reliable in case of something breaking. This document will guide you in using the GitGud Flow and the commands involved, remember that this only a model and you can use this only as a document.
 

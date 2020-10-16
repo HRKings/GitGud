@@ -13,6 +13,8 @@
 		- [3.1 - Merging a Hotfix branch](#31---merging-a-hotfix-branch)
 	- [4 - Deleting a branch](#4---deleting-a-branch)
 
+---
+
 This guid lists the commands necessary to use [GitGud Flow](GitGud_Flow.md) from the command line.
 
 ## 1 - Creating branches
