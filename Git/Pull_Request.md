@@ -1,14 +1,16 @@
-# The Pull Request
+# GitGud: Pull Request Sub-Model
 
 **Table of Contents:**
 
-- [The Pull Request](#the-pull-request)
+- [GitGud: Pull Request Sub-Model](#gitgud-pull-request-sub-model)
 	- [1 - How to write a good Pull Request](#1---how-to-write-a-good-pull-request)
 		- [1.1 - Title](#11---title)
 		- [1.2 - Body](#12---body)
 		- [1.3 - The Footer](#13---the-footer)
 	- [2 - How to offer good feedback](#2---how-to-offer-good-feedback)
 	- [3 - How to respond to feedback](#3---how-to-respond-to-feedback)
+
+---
 
 Pull Requests, or PRs, are the main to share your changes with other developers and ask for feedback. Once you open a pull request, other people working in the project are notified that you completed a feature and you can discuss and review the changes before they are merged in another branch.
 
