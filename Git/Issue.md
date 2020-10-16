@@ -1,8 +1,8 @@
-# Git Issues
+# GitGud: Issue Sub-Model
 
 **Table of Contents:**
 
-- [Git Issues](#git-issues)
+- [GitGud: Issue Sub-Model](#gitgud-issue-sub-model)
 	- [1 - Issue Template Structure](#1---issue-template-structure)
 		- [1.1 - Title](#11---title)
 			- [1.1.1 - Tag](#111---tag)
@@ -13,6 +13,8 @@
 		- [1.5 - Additional Info](#15---additional-info)
 	- [2 - Issues as todo lists for the team](#2---issues-as-todo-lists-for-the-team)
 	- [3 - Responding issues](#3---responding-issues)
+
+---
 
 Issue Trackers are one of the most useful features of a Git platform that you may be using, it enables end-users and other developers to create formal reports of bugs, issues and to-dos in the repository.
 
