@@ -40,6 +40,8 @@ Here is where you can really explain why you made those changes, put bullet list
 
 - Remember to reference issues related to the Pull Request. This will help give context to the person reading and provide more information on why the changes were made.
 
+- If the body gets too long, put a TL;DR on the top so people can get a briefing of what was wrote.
+
 ### 1.3 - The Footer
 
 The footer is where you can close or reference more issues. A `Resolve #123` would close the issue numbered 123 when the Pull Request were approved.
