@@ -1,8 +1,8 @@
-# The Commit
+# GitGud: Commit Sub-Model
 
 **Table of Contents:**
 
-- [The Commit](#the-commit)
+- [GitGud: Commit Sub-Model](#gitgud-commit-sub-model)
 	- [1 - How to make a good commit message](#1---how-to-make-a-good-commit-message)
 		- [1.1 - Tags](#11---tags)
 		- [1.2 - Flags](#12---flags)
@@ -10,6 +10,8 @@
 		- [1.4 - Body](#14---body)
 		- [1.5 - Footer](#15---footer)
 	- [2 - An example of a good commit message](#2---an-example-of-a-good-commit-message)
+
+---
 
 Commits are an essential part of Git, and this session will guide you through some practices about them.
 
