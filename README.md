@@ -35,16 +35,16 @@ That is why we created the GitGud Model, to be a centralized place to gather all
 
 ## Sub-Models
 
-- [GitGud: Commit Sub-Model](Git/Commit.md) : Commit rules and commit messages convention
-- [GitGud: Pull Request Sub-Model](Git/Pull_Request.md) : Pull Requests convention and best practices
-- [GitGud: Issue Sub-Model](Git/Issue.md) : Issues guidelines and templates
+- [GitGud: Commit Sub-Model](Git/Commit.md) - Commit rules and commit messages convention
+- [GitGud: Pull Request Sub-Model](Git/Pull_Request.md) - Pull Requests convention and best practices
+- [GitGud: Issue Sub-Model](Git/Issue.md) - Issues guidelines and templates
 
 **GitGud Flow:**
 
-- [GitGud Flow Model](Flow/GitGud_Flow.md) : An easy branching model focused CI/CD and collaboration
-  - [GitGud Flow Commands Guide](Flow/GitGud_Flow_HowTo.md) : How to follow the GitGud Flow from the command line
+- [GitGud Flow Sub-Model](Flow/GitGud_Flow.md) - An easy branching model focused CI/CD and collaboration
+  - [GitGud Flow Commands Guide](Flow/GitGud_Flow_HowTo.md) - How to follow the GitGud Flow from the command line
 
 **Versioning:**
 
-- [GitGud: Versioning  Sub-Model](Versioning/Versioning_Guide.md) : A comprehensive guide to SemVer
-- [GitGud: Changelog  Sub-Model](Versioning/Changelog_Model.md) : An easy changelog model based on the *Keep a Changelog*
+- [GitGud: Versioning Sub-Model](Versioning/Versioning_Guide.md) - A comprehensive guide to SemVer
+- [GitGud: Changelog Sub-Model](Versioning/Changelog_Model.md) - An easy changelog model based on the *Keep a Changelog*
