@@ -4,11 +4,11 @@
 
 - [The Pull Request](#the-pull-request)
 	- [1 - How to write a good Pull Request](#1---how-to-write-a-good-pull-request)
-	- [1.1 - Title](#11---title)
-	- [1.2 - Body](#12---body)
-	- [1.3 - The Footer](#13---the-footer)
+		- [1.1 - Title](#11---title)
+		- [1.2 - Body](#12---body)
+		- [1.3 - The Footer](#13---the-footer)
 	- [2 - How to offer good feedback](#2---how-to-offer-good-feedback)
-	- [1.3 - How to respond to feedback](#13---how-to-respond-to-feedback)
+	- [3 - How to respond to feedback](#3---how-to-respond-to-feedback)
 
 Pull Requests, or PRs, are the main to share your changes with other developers and ask for feedback. Once you open a pull request, other people working in the project are notified that you completed a feature and you can discuss and review the changes before they are merged in another branch.
 
@@ -18,13 +18,13 @@ They are also a way to merge changes from a fork into the main repository when c
 
 When writing a pull request you need to make sure that other people understand what changes you are proposing.
 
-## 1.1 - Title
+### 1.1 - Title
 
 The title is a short description of what the Pull Request proposes, keep it short and informative.
 
 You can also put some tags and flags in the title to give more information at glance. In which you can use the same rules proposed in the [Commit Message Style Guide](Commit.md), but is recommended to use the labeling feature of your platform.
 
-## 1.2 - Body
+### 1.2 - Body
 
 Here is where you can really explain why you made those changes, put bullet list and let others know why those changes are important.
 
@@ -40,7 +40,7 @@ Here is where you can really explain why you made those changes, put bullet list
 
 - Remember to reference issues related to the Pull Request. This will help give context to the person reading and provide more information on why the changes were made.
 
-## 1.3 - The Footer
+### 1.3 - The Footer
 
 The footer is where you can close or reference more issues. A `Resolve #123` would close the issue numbered 123 when the Pull Request were approved.
 
@@ -68,7 +68,7 @@ Feedback is the one of the main objectives of the Pull Requests, and offering go
 
 - Always aim to be develop professional skills and incentive a good peaceful discussion, develop group knowledge and product quality.
 
-## 1.3 - How to respond to feedback
+## 3 - How to respond to feedback
 
 Responding to feedback is essential, but you need to keep in mind somethings:
 
