@@ -3,14 +3,37 @@
 **Table of Contents:**
 
 - [GitGud Flow : Branching Sub-Model](#gitgud-flow--branching-sub-model)
-	- [1 - The Premise](#1---the-premise)
-		- [1.1 - Stable](#11---stable)
-		- [1.2 - Master](#12---master)
-		- [1.3 - WIP](#13---wip)
-		- [1.4 - Fix](#14---fix)
-		- [1.5 - Task](#15---task)
-		- [1.6 - Hotfix](#16---hotfix)
-		- [1.7 - Optional Versioning Branches](#17---optional-versioning-branches)
+	- [1 - The Model](#1---the-model)
+	- [2 - Permanent Branches](#2---permanent-branches)
+		- [2.1 - Stable Branch](#21---stable-branch)
+			- [2.1.1 - Stable Branch Guidelines](#211---stable-branch-guidelines)
+			- [2.1.2 - Stable Branch Merging Rules](#212---stable-branch-merging-rules)
+			- [2.1.3 - Stable Branch Naming Convention](#213---stable-branch-naming-convention)
+		- [2.2 - Master Branch](#22---master-branch)
+			- [2.2.1 - Master Branch Guidelines](#221---master-branch-guidelines)
+			- [2.2.2 - Master Branch Merging Rules](#222---master-branch-merging-rules)
+			- [2.2.3 - Master Branch Naming Convention](#223---master-branch-naming-convention)
+	- [3 - Working Branches](#3---working-branches)
+		- [3.1 - WIP Branches](#31---wip-branches)
+			- [3.1.1 - WIP Branches Guidelines](#311---wip-branches-guidelines)
+			- [3.1.2 - WIP Branches Merging Rules](#312---wip-branches-merging-rules)
+			- [3.1.3 - WIP Branches Naming Convention](#313---wip-branches-naming-convention)
+		- [3.2 - Fix Branches](#32---fix-branches)
+			- [3.2.1 - Fix Branches Guidelines](#321---fix-branches-guidelines)
+			- [3.2.2 - Fix Branches Merging Rules](#322---fix-branches-merging-rules)
+			- [3.2.3 - Fix Branches Naming Convention](#323---fix-branches-naming-convention)
+		- [3.3 - Chore Branches](#33---chore-branches)
+			- [3.3.1 - Chore Branches Guidelines](#331---chore-branches-guidelines)
+			- [3.3.2 - Chore Branches Merging Rules](#332---chore-branches-merging-rules)
+			- [3.3.3 - Chore Branches Naming Convention](#333---chore-branches-naming-convention)
+		- [3.4 - Hotfix Branches](#34---hotfix-branches)
+			- [3.4.1 - Hotfix Branches Guidelines](#341---hotfix-branches-guidelines)
+			- [3.4.2 - Hotfix Branches Merging Rules](#342---hotfix-branches-merging-rules)
+			- [3.4.3 - Hotfix Branches Naming Convention](#343---hotfix-branches-naming-convention)
+	- [4 - Optional Versioning Branches](#4---optional-versioning-branches)
+		- [4.1 - Optional Versioning Branches Guidelines](#41---optional-versioning-branches-guidelines)
+		- [4.2 - Optional Versioning Branches Merging Rules](#42---optional-versioning-branches-merging-rules)
+		- [4.3 - Optional Versioning Branches Naming Convention](#43---optional-versioning-branches-naming-convention)
 
 ---
 
@@ -20,7 +43,7 @@ GitGud flow is heavily based from the standard Git Flow, but with some differenc
 
 **Disclaimer:** This guide use the [Commit Guide](../Topics/Commit.md) and the [Pull Request Guide](../Topics/Pull_Request.md) from GitGud. Use them as a base anytime it references any of these two features.
 
-## 1 - The Premise
+## 1 - The Model
 
 When using the Git Flow you need to understand what you can do and how it works.
 
@@ -35,150 +58,157 @@ Here is the list of branch types in GitGud Flow:
 
 - WIP
 - Fix
-- Task
+- Chore
 - Hotfix
 
 Remember that those are only the types of the branches, but the naming is up to you.
 
 The basic working of this flow is:
 
-1. You branch of the master branch;
+1. You branch off the master branch;
 2. You make modifications;
 3. You merge back into master branch once is ready;
-4. You then merge master branch into the stable branch once all the changes are complete.
+4. You then merge master branch into the stable branch via Pull Request once all the changes are complete.
 
-Bellow is a more detailed explanation of what are those types and how to use the branches.
+## 2 - Permanent Branches
 
-### 1.1 - Stable
+Permanent branches are never receive any direct commits and never gets deleted.
+
+### 2.1 - Stable Branch
 
 This is your release ready branch, here will be only the latest production ready changes.
 
-**General Rules:**
+#### 2.1.1 - Stable Branch Guidelines
 
 - You only have one stable branch;
 - **You never commit directly to this branch;**
 - This branch is never deleted;
 
-**Merging Rules:**
+#### 2.1.2 - Stable Branch Merging Rules
 
 - You only merge from master, once all the changes from a version are ready;
 - You can only merge hotfix branches;
 - When merging, you should always make a Pull Request with a changelog and squash the commits.
 
-**Naming:**
+#### 2.1.3 - Stable Branch Naming Convention
 
-- Lower case;
+- Lowercase;
 - Snake case;
 - Descriptive and clear that it is only for stable code.
 
-### 1.2 - Master
+### 2.2 - Master Branch
 
 This branch is where all the development progress will be made, all features, fixes and changes will go here.
 
-**General Rules:**
+#### 2.2.1 - Master Branch Guidelines
 
 - You only have one master branch;
 - It's not advised to commit directly in this branch;
 - This branch is never deleted;
 - This is your repository default branch.
 
-**Merging Rules:**
+#### 2.2.2 - Master Branch Merging Rules
 
 - You only merge complete wip branches;
 - You can merge any fix;
-- You can merge any task branch;
-- When merging you should make a Pull Request with a changelog if working with a team, if not merge the branch directly.
+- You can merge any chore branch;
+- If working with a team : When merging you should make a Pull Request with a changelog
+- If working alone : merge the branch directly.
 
-**Naming:**
+#### 2.2.3 - Master Branch Naming Convention
 
-- Lower case;
+- Lowercase;
 - Snake case;
 - This can be anything you want, and usually is left to the git into default.
 
-### 1.3 - WIP
+## 3 - Working Branches
+
+Working branches receive direct commits and can be freely edited by the developers.
+
+### 3.1 - WIP Branches
 
 The most used of them all, is where you test new features, change or update things.
 
-**General Rules:**
+#### 3.1.1 - WIP Branches Guidelines
 
 - You can have multiple wip branches;
 - WIP branches are deleted after they are merged into the development branch;
 - You can commit freely and test in them at will.
 
-**Merging Rules:**
+#### 3.1.2 - WIP Branches Merging Rules
 
 - You will only merge a complete wip branch to the master branch.
 
-**Naming:**
+#### 3.1.3 - WIP Branches Naming Convention
 
-- Lower case;
+- Lowercase;
 - Snake case;
 - Prefixed with `wip/`;
 - Descriptive and clear of its purpose, be a new feature or a change.
 
-### 1.4 - Fix
+### 3.2 - Fix Branches
 
 Fix branches are used to fix bugs, missing resources found in the master branch. Mainly used for uncaught issues in tests or runtime issues not detected in the development.
 
-**General Rules:**
+#### 3.2.1 - Fix Branches Guidelines
 
 - You can have multiple bugfix branches;
 - Fix branches are deleted after they are merged into the master branch;
 - You can fix more than one bug on the branch.
 
-**Merging Rules:**
+#### 3.2.2 - Fix Branches Merging Rules
 
 - You will only merge a complete fix branch in the development branch.
 
-**Naming:**
+#### 3.2.3 - Fix Branches Naming Convention
 
-- Lower case;
+- Lowercase;
 - Snake case;
 - Prefixed with `fix/`;
 - Descriptive and clear of its purpose. What are you fixing ?
 
-### 1.5 - Task
+### 3.3 - Chore Branches
 
 This type of branch is only used when updating dependencies, frameworks, build tasks and other updates required.
 
-**General Rules:**
+#### 3.3.1 - Chore Branches Guidelines
 
-- You can have multiple task branches;
-- Task branches are deleted after they are merged into the development branch;
-- You can only make commits related to tasks.
+- You can have multiple chore branches;
+- Chore branches are deleted after they are merged into the development branch;
+- You can only make commits related to chores.
 
-**Merging Rules:**
+#### 3.3.2 - Chore Branches Merging Rules
 
-- You will only merge a complete task branch that has passed all tests to the master.
+- You will only merge a complete chore branch that has passed all tests to the master.
 
-**Naming:**
+#### 3.3.3 - Chore Branches Naming Convention
 
-- Lower case;
+- Lowercase;
 - Snake case;
-- Prefixed with `task/`;
-- Descriptive and clear of its purpose. What task are you doing ? Updating some dependency ? Documentation ?
+- Prefixed with `chore/`;
+- Descriptive and clear of its purpose. What chore are you doing ? Updating some dependency ? Documentation ?
 
-### 1.6 - Hotfix
+### 3.4 - Hotfix Branches
 
 This branch is a priority fix, when you find a serious bug in the stable branch that needs to be resolved as soon as possible, you commit to a hotfix branch to resolve it.
 
-**General Rules:**
+#### 3.4.1 - Hotfix Branches Guidelines
 
 - Hotfix branches are based of the stable branch;
 - Hotfix branches are deleted after they are merged into the stable branch;
 
-**Merging Rules:**
+#### 3.4.2 - Hotfix Branches Merging Rules
 
 - After the hotfix is complete, you merge it to stable and master branches.
 
-**Naming:**
+#### 3.4.3 - Hotfix Branches Naming Convention
 
-- Lower case;
+- Lowercase;
 - Snake case;
 - Prefixed with `hotfix/`;
 - Descriptive and clear of its purpose.
 
-### 1.7 - Optional Versioning Branches
+## 4 - Optional Versioning Branches
 
 Those are branches that are not present in the model, but can be used if needed. For example:
 
@@ -186,19 +216,19 @@ Those are branches that are not present in the model, but can be used if needed.
 - A public_test branch;
 - A release candidate branch.
 
-**General Rules:**
+### 4.1 - Optional Versioning Branches Guidelines
 
 - **You never commit directly to this branch;**
 - This branch is deleted after its respective version reaches end of life;
 
-**Merging Rules:**
+### 4.2 - Optional Versioning Branches Merging Rules
 
 - You only merge from master, once all the changes from a version are ready;
 - You can only merge hotfix branches;
 - When merging, you should make a Pull Request with a changelog and squash the commits.
 
-**Naming:**
+### 4.3 - Optional Versioning Branches Naming Convention
 
-- Lower case;
+- Lowercase;
 - Snake case;
-- Descriptive and clear that it is only for a specific version.
+- Descriptive and clear that it is only for a specific version. (For example: beta_1, rc_2 or alpha_3)
