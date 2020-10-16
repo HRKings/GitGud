@@ -38,7 +38,7 @@ Description
 
 The title is a short description of the issue, it is what everyone will see first, so keep it descriptive.
 
-You may have notice that he *tag* and *flag* fields in the template are optional. That is because is best to use the labeling tools provided by your platform, but is also something nice to have, as it helps narrow down search results for instance.
+You may have notice that the *tag* and *flag* fields in the template are optional. That is because is best to use the labeling tools provided by your platform, but is also something nice to have, as it helps narrow down search results for instance.
 
 #### 1.1.1 - Tag
 
