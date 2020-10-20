@@ -1,8 +1,8 @@
-# GitGud: Issue Sub-Model
+# GitGud: Issue Submodel
 
 **Table of Contents:**
 
-- [GitGud: Issue Sub-Model](#gitgud-issue-sub-model)
+- [GitGud: Issue Submodel](#gitgud-issue-submodel)
 	- [1 - Issue Model](#1---issue-model)
 		- [1.1 - Title Guidelines](#11---title-guidelines)
 			- [1.1.1 - Tag Convention](#111---tag-convention)

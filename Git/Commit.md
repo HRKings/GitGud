@@ -1,8 +1,8 @@
-# GitGud: Commit Sub-Model
+# GitGud: Commit Submodel
 
 **Table of Contents:**
 
-- [GitGud: Commit Sub-Model](#gitgud-commit-sub-model)
+- [GitGud: Commit Submodel](#gitgud-commit-submodel)
 	- [1 - Best Practices](#1---best-practices)
 	- [2 - Commit Message Model](#2---commit-message-model)
 		- [1.1 - Tag](#11---tag)
@@ -17,7 +17,7 @@
 
 ---
 
-This sub-model aims to provide best practices, naming conventions and guidelines about commits, as they are the essence of Git.
+This submodel aims to provide best practices, naming conventions and guidelines about commits, as they are the essence of Git.
 
 ## 1 - Best Practices
 
@@ -37,7 +37,7 @@ Writing good ones will ensure that you and the people that collaborate in a proj
 
 Obs.: Use your personal projects as a learning, write good commit messages and you will get used to it.
 
-The default template provided by this sub-model is the following:
+The default template provided by this submodel is the following:
 
 ```Markdown
 [tag]{flag (optional)} Subject

@@ -1,8 +1,8 @@
-# GitGud: Changelog Sub-Model
+# GitGud: Changelog Submodel
 
 **Table of Contents:**
 
-- [GitGud: Changelog Sub-Model](#gitgud-changelog-sub-model)
+- [GitGud: Changelog Submodel](#gitgud-changelog-submodel)
 	- [1 - Changelog Model](#1---changelog-model)
 		- [1.1 - Title Guidelines](#11---title-guidelines)
 		- [1.2 - Body Guidelines](#12---body-guidelines)

@@ -1,6 +1,6 @@
-# GitGud: Versioning Sub-Model
+# GitGud: Versioning Submodel
 
-- [GitGud: Versioning Sub-Model](#gitgud-versioning-sub-model)
+- [GitGud: Versioning Submodel](#gitgud-versioning-submodel)
 	- [1 - Version Convention](#1---version-convention)
 		- [1.1 - Extended versioning](#11---extended-versioning)
 		- [1.2 - Build metadata](#12---build-metadata)
