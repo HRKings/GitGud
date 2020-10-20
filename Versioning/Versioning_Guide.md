@@ -1,8 +1,20 @@
-# Versioning
+# GitGud: Versioning Sub-Model
 
-This versioning guide is only an explanation of the [Semantic Versioning](https://semver.org) and is only used as a quick reference. If you want to hare more details, head to SemVer website to read more.
+- [GitGud: Versioning Sub-Model](#gitgud-versioning-sub-model)
+	- [1 - Version Convention](#1---version-convention)
+		- [1.1 - Extended versioning](#11---extended-versioning)
+		- [1.2 - Build metadata](#12---build-metadata)
+	- [2 - Ordering](#2---ordering)
+	- [3 - Range Guidelines](#3---range-guidelines)
+		- [3.1 - Basic Range](#31---basic-range)
+		- [3.2 - Wildcard Range](#32---wildcard-range)
+		- [3.3 - Greater and Less Range](#33---greater-and-less-range)
 
-## 1 - Basic Versioning
+---
+
+This versioning guide is an expanded version of the [Semantic Versioning](https://semver.org). But if you want to more details about the SemVer, head the website to read more.
+
+## 1 - Version Convention
 
 Basic versioning is done in the form of: `MAJOR.MINOR.PATCH`, where:
 
@@ -15,7 +27,7 @@ Where backwards compatible means that a user using a previous version can still 
 - In a game, it will not break saves or corrupt data
 - In a software, it will still be able to access the API or the Database
 
-## 2 - Extended versioning
+### 1.1 - Extended versioning
 
 You can extend the version number by using a hyphen (`-`) and dot (`.`)separated identifiers, where all identifiers must be ASCII only. For example:
 
@@ -23,7 +35,7 @@ You can extend the version number by using a hyphen (`-`) and dot (`.`)separated
 - MAJOR.MINOR.PATCH-alpha.2
 - MAJOR.MINOR.PATCH-beta.3
 
-## 3 - Build metadata
+### 1.2 - Build metadata
 
 Build metadata can be included with a plus sign (`+`), containing only ASCII. For example:
 
@@ -31,7 +43,7 @@ Build metadata can be included with a plus sign (`+`), containing only ASCII. Fo
 - MAJOR.MINOR.PATCH-beta.3+21AF26D3
 - MAJOR.MINOR.PATCH+20130313144700
 
-## 4 - Precedence
+## 2 - Ordering
 
 This is how the versions can be organized when ordered, where each version is compared numerically. For example:
 
@@ -44,3 +56,29 @@ When MAJOR, MINOR and PATCH are equal, pre-release takes a lower precedence than
 If all of the three and the identifier are equal, then a comparison of each dot will be made from left to right until a difference is found. For example:
 
 - 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0
+
+## 3 - Range Guidelines
+
+When working with dependencies, you will probably need to work with ranges to cover more than one version.
+
+### 3.1 - Basic Range
+
+To work with a basic range of versions, you need to specify the starting version and the ending version with a hyphen (`-`), for example:
+
+`1.0.0 - 2.0.0`, this means that any version between `1.0.0` and `2.0.0` is accepted (including `1.0.0` and `2.0.0`).
+
+### 3.2 - Wildcard Range
+
+You can specify a greater range of versions using the wildcard asterisk (`*`), for example:
+
+- `*.0.0`, will accept any version with the MINOR and PATCH versions equal to 0;
+- `1.*.0`, will accept any version with the MAJOR version equal to 1 and the PATCH equal to 0;
+- `1.0.*`, will accept any version with the MAJOR version equal to 1 and MINOR equal to 0;
+- `1.*.*`, will accept any version with the MAJOR version equal to 1.
+
+### 3.3 - Greater and Less Range
+
+If you need to support a minimum or maximum version you can use the operators grater than (`>`) and lesser then (`<`), for example:
+
+- `>1.0.0`, will accept any version above `1.0.0`;
+- `<1.0.0`, will accept any version bellow `1.0.0`.

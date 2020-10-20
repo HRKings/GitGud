@@ -46,5 +46,5 @@ That is why we created the GitGud Model, to be a centralized place to gather all
 
 **Versioning:**
 
-- [GitGud: Versioning Sub-Model](Versioning/Versioning_Guide.md) - A comprehensive guide to SemVer
+- [GitGud: Versioning Sub-Model](Versioning/Versioning_Guide.md) - An easy versioning model based on the *Semantic Versioning*
 - [GitGud: Changelog Sub-Model](Versioning/Changelog_Model.md) - An easy changelog model based on the *Keep a Changelog*
