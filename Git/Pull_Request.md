@@ -1,8 +1,8 @@
-# GitGud: Pull Request Sub-Model
+# GitGud: Pull Request Submodel
 
 **Table of Contents:**
 
-- [GitGud: Pull Request Sub-Model](#gitgud-pull-request-sub-model)
+- [GitGud: Pull Request Submodel](#gitgud-pull-request-submodel)
 	- [1 - Guidelines](#1---guidelines)
 		- [1.1 - Writing Pull Requests Guidelines](#11---writing-pull-requests-guidelines)
 			- [1.1.1 - Title Guidelines](#111---title-guidelines)
@@ -18,7 +18,7 @@ Pull Requests, or PRs, are the main to share your changes with other developers 
 
 They are also a way to merge changes from a fork into the main repository when contributing to other projects.
 
-Pull Requests are also required by the [GitGud Flow Sub-Model](../Flow/GitGud_Flow.md).
+Pull Requests are also required by the [GitGud Flow Submodel](../Flow/GitGud_Flow.md).
 
 ## 1 - Guidelines
 

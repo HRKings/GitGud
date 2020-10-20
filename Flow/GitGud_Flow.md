@@ -1,8 +1,8 @@
-# GitGud Flow : Branching Sub-Model
+# GitGud Flow : Branching Submodel
 
 **Table of Contents:**
 
-- [GitGud Flow : Branching Sub-Model](#gitgud-flow--branching-sub-model)
+- [GitGud Flow : Branching Submodel](#gitgud-flow--branching-submodel)
 	- [1 - The Model](#1---the-model)
 	- [2 - Permanent Branches](#2---permanent-branches)
 		- [2.1 - Stable Branch](#21---stable-branch)
