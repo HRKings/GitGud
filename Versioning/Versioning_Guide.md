@@ -27,6 +27,8 @@ Where backwards compatible means that a user using a previous version can still 
 - In a game, it will not break saves or corrupt data
 - In a software, it will still be able to access the API or the Database
 
+**Obs.:** On this model, some degree of breaking changes are allowed in the *MINOR* and *PATCH* version. This is due some changes not being in control of the developer, for example, external Dependencies changes, if those changes break the code, they can still be considered *MINOR* (changed functionality) or *PATCH* (fix for some third-party change).
+
 ### 1.1 - Extended versioning
 
 You can extend the version number by using a hyphen (`-`) and dot (`.`)separated identifiers, where all identifiers must be ASCII only. For example:
