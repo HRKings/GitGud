@@ -112,8 +112,18 @@ This branch is where all the development progress will be made, all features, fi
 - You only merge complete wip branches;
 - You can merge any fix;
 - You can merge any chore branch;
-- If working with a team : When merging you should make a Pull Request with a changelog
+- If working with a team : When merging you should make a Pull Request, with a custom commit message:
+  - The message must contain the `[merge]` tag and reference the branch name and the Pull Request number, for exemple:
+  - `[merge] Complete: SUBJECT on PR #N`, where *SUBJECT* is what feature is being added/updated/removed and *N* is the Pull Request number;
+  - `[merge] Fix: SUBJECT on PR #N`, where *SUBJECT* is what problem is being fixed and *N* is the Pull Request number.
 - If working alone : merge the branch directly.
+
+**Merge Commit message exemples:**
+
+- `[merge] Complete: Add REST API on PR #123`
+- `[merge] Fix: Server crash on PR #456`
+- `[merge] Complete: Remove login page on PR #789`
+- `[merge] Complete: Update dependencies on PR #321`
 
 #### 2.2.3 - Master Branch Naming Convention
 
