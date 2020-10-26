@@ -7,6 +7,7 @@
 	- [History](#history)
 	- [Reasons to use GitGud](#reasons-to-use-gitgud)
 	- [Submodels](#submodels)
+	- [How to opt for GitGud](#how-to-opt-for-gitgud)
 
 ----
 
@@ -46,5 +47,25 @@ That is why we created the GitGud Model, to be a centralized place to gather all
 
 **Versioning:**
 
-- [GitGud: Versioning Submodel](Versioning/Versioning_Guide.md) - An easy versioning model based on the *Semantic Versioning*
-- [GitGud: Changelog Submodel](Versioning/Changelog_Model.md) - An easy changelog model based on the *Keep a Changelog*
+- [GitGud: Versioning Submodel](Versioning/Versioning.md) - An easy versioning model based on the *Semantic Versioning*
+- [GitGud: Changelog Submodel](Versioning/Changelog.md) - An easy changelog model based on the *Keep a Changelog*
+
+----
+
+## How to opt for GitGud
+
+If you plan to use the GitGud Model, you need to put somewhere in your documentation, *README* or *CONTRIBUTING* that you are using the model or the submodels.
+
+Some examples:
+
+```Markdown
+This project uses the [GitGud Model](https://github.com/HRKings/GitGud).
+```
+
+```Markdown
+This project uses the following submodels from the [GitGud Model](https://github.com/HRKings/GitGud):
+
+- [GitGud Versioning](https://github.com/HRKings/GitGud/Versioning/Versioning.md)
+- [GitGud Changelog](https://github.com/HRKings/GitGud/Versioning/Changelog.md)
+- [GitGud Flow](https://github.com/HRKings/GitGud/Flow/GitGud_Flow.md)
+```
