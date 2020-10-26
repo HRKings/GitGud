@@ -13,6 +13,8 @@
 		- [3.1 - Merging a Hotfix branch](#31---merging-a-hotfix-branch)
 	- [4 - Deleting a branch](#4---deleting-a-branch)
 
+---
+
 This guid lists the commands necessary to use [GitGud Flow](GitGud_Flow.md) from the command line.
 
 ## 1 - Creating branches
@@ -50,10 +52,10 @@ To create a new working branch and automatically checkout to it, execute this co
 
 ```Bash
 git checkout master
-git checkout -b type/branch_name
+git checkout -b TYPE/BRANCH_NAME
 ```
 
-*Please refer to the [GitGud Flow Guide](GitGud_Flow.md#1---the-premise) for the list of working branches types.*
+*Please refer to the [GitGud Flow Guide](GitGud_Flow.md#3---working-branches) for the list of working branches types.*
 
 ### 1.3 - Creating a Hotfix branch
 
@@ -61,7 +63,7 @@ The hotfix branch always come from the stable branch or from a versioning one, t
 
 ```Bash
 git checkout stable
-git checkout -b hotfix/branch_name
+git checkout -b hotfix/BRANCH_NAME
 ```
 
 ## 2 - Publishing a branch
@@ -71,7 +73,7 @@ When working with other people, you need to make the branch you are working on a
 To make this possible you need to execute:
 
 ```Bash
-git push -u origin branch_name
+git push -u origin BRANCH_NAME
 ```
 
 ## 3 - Merging a working branch
@@ -80,7 +82,7 @@ When working alone in a branch, once you complete all the changes you can merge 
 
 ```Bash
 git checkout master
-git merge branch_name
+git merge BRANCH_NAME
 ```
 
 **Disclaimer:** *When working with a team is advised that you always merge via Pull Request.*
@@ -91,10 +93,10 @@ Hotfix branches are special in the sense that they need to be merged both into s
 
 ```Bash
 git checkout stable
-git merge hotfix/branch_name
+git merge hotfix/BRANCH_NAME
 
 git checkout master
-git merge hotfix/branch_name
+git merge hotfix/BRANCH_NAME
 ```
 
 **Disclaimer:** *When working with a team is advised that you always merge via Pull Request.*
@@ -104,5 +106,5 @@ git merge hotfix/branch_name
 After you complete a working branch you will need to delete it, doing so is simple as:
 
 ```Bash
-git branch -d branch_name
+git branch -d BRANCH_NAME
 ```

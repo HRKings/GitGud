@@ -1,14 +1,26 @@
-# GitGud : A collection of models, guidelines, naming conventions and best practices for Git
+# GitGud : A modular Git model
 
-Git, without doubt is one of the greatest development tools in existence, but learning the right way is a difficult thing. This repository is an easy way to comprehend some git functionalities and workflow, changelogs and versioning.
+**Table of Contents:**
 
-It will assume that you already have some experience with Git, and understand how to work with version control and will teach you some patterns and aims to provide you with a foundation to which you can build your own workflow using git.
+- [GitGud : A modular Git model](#gitgud--a-modular-git-model)
+	- [What is a submodel](#what-is-a-submodel)
+	- [History](#history)
+	- [Reasons to use GitGud](#reasons-to-use-gitgud)
+	- [Submodels](#submodels)
 
-While there is no "right" way to use Git, this repository provides good foundations based on GitFlow, official Git guides and some other repositories and articles found on the internet, fell free to take from here what you need.
+----
+
+Git, without doubt is one of the greatest development tools in existence, but using the right way is a difficult thing, while you can search the internet for articles and various models, you can start getting a lot of tabs open and many models to follow and opt-in. With this problem in mind that we created the GitGud Model, it covers everything, from commit messages to changelogs. You can chose to use only one of the submodels or all of them, or even create your own guidelines based on it, the choice is yours.
+
+## What is a submodel
+
+A submodel is a collection of guidelines, code of conducts and naming conventions. This collection, when focused in a specific topic, creates a model that can be used in an independent way or together with other models, hence the nomenclature submodel, as is just a part of a larger one.
 
 ## History
 
-GitGud was created to be a template and a collection of rules to assist in Git usage, while remaining beginner friendly. It provides not only technical rules, but also best practices to achieve a friendlier workspace. It also is a one stop for quick references about those rules and practices, so you don't need to open more than one site if you need to remember how to structure your commits and pull requests.
+When using git, we ended up with multiple tabs listing various guidelines and models, that provided only pieces of the information that we wanted. In the end we needed to choose a few points of each article that we found and twet it to our linking.
+
+That is why we created the GitGud Model, to be a centralized place to gather all this info and create a concise and comprehensive model that we can update over time to create a really easy and powerful way of using Git and its features. And of course, it's open source as everyone can contribute with their ideas and changes, and of course, tweak the model and its submodels to best suit their projects.
 
 ## Reasons to use GitGud
 
@@ -21,20 +33,18 @@ GitGud was created to be a template and a collection of rules to assist in Git u
 
 ----
 
-## Table of Contents
+## Submodels
 
-**Git:**
-
-- [Commit Guidelines](Git/Commit.md) : Commit rules and commit messages convention
-- [Pull Request Guidelines](Git/Pull_Request.md) : Pull Requests convention and best practices
-- [Issue Guidelines](Git/Issue.md) : Issues guidelines and templates
+- [GitGud: Commit Submodel](Git/Commit.md) - Commit rules and commit messages convention
+- [GitGud: Pull Request Submodel](Git/Pull_Request.md) - Pull Requests convention and best practices
+- [GitGud: Issue Submodel](Git/Issue.md) - Issues guidelines and templates
 
 **GitGud Flow:**
 
-- [GitGud Flow Model](Flow/GitGud_Flow.md) : An easy branching model focused CI/CD and collaboration
-- [GitGud Flow Commands Guide](Flow/GitGud_Flow_HowTo.md) : How to follow the GitGud Flow from the command line
+- [GitGud Flow Submodel](Flow/GitGud_Flow.md) - An easy branching model focused CI/CD and collaboration
+  - [GitGud Flow Commands Guide](Flow/GitGud_Flow_HowTo.md) - How to follow the GitGud Flow from the command line
 
 **Versioning:**
 
-- [Versioning Guide](Versioning/Versioning_Guide.md) : A comprehensive guide to SemVer
-- [Changelog Model](Versioning/Changelog_Model.md) : An easy changelog model based on the *Keep a Changelog*
+- [GitGud: Versioning Submodel](Versioning/Versioning_Guide.md) - An easy versioning model based on the *Semantic Versioning*
+- [GitGud: Changelog Submodel](Versioning/Changelog_Model.md) - An easy changelog model based on the *Keep a Changelog*
