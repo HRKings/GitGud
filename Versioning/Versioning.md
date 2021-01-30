@@ -1,14 +1,14 @@
 # GitGud: Versioning Submodel
 
-- [GitGud: Versioning Submodel](#gitgud-versioning-submodel)
-	- [1 - Version Convention](#1---version-convention)
-		- [1.1 - Extended versioning](#11---extended-versioning)
-		- [1.2 - Build metadata](#12---build-metadata)
-	- [2 - Ordering](#2---ordering)
-	- [3 - Range Guidelines](#3---range-guidelines)
-		- [3.1 - Basic Range](#31---basic-range)
-		- [3.2 - Wildcard Range](#32---wildcard-range)
-		- [3.3 - Greater and Less Range](#33---greater-and-less-range)
+* [GitGud: Versioning Submodel](#gitgud-versioning-submodel)
+	* [1 - Version Convention](#1---version-convention)
+		* [1.1 - Extended versioning](#11---extended-versioning)
+		* [1.2 - Build metadata](#12---build-metadata)
+	* [2 - Ordering](#2---ordering)
+	* [3 - Range Guidelines](#3---range-guidelines)
+		* [3.1 - Basic Range](#31---basic-range)
+		* [3.2 - Wildcard Range](#32---wildcard-range)
+		* [3.3 - Greater and Less Range](#33---greater-and-less-range)
 
 ---
 

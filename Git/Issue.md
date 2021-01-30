@@ -2,17 +2,17 @@
 
 **Table of Contents:**
 
-- [GitGud: Issue Submodel](#gitgud-issue-submodel)
-	- [1 - Issue Model](#1---issue-model)
-		- [1.1 - Title Guidelines](#11---title-guidelines)
-			- [1.1.1 - Tag Convention](#111---tag-convention)
-			- [1.1.2 - Flag Convention](#112---flag-convention)
-		- [1.2 - Description Guidelines](#12---description-guidelines)
-		- [1.3 - Logs Section Guidelines](#13---logs-section-guidelines)
-		- [1.4 - "How to reproduce" Section Guidelines](#14---how-to-reproduce-section-guidelines)
-		- [1.5 - "Additional Info" Section Guidelines](#15---additional-info-section-guidelines)
-	- [2 - Tip: Issues as todo lists for the team](#2---tip-issues-as-todo-lists-for-the-team)
-	- [3 - Responding Issues Code of Conduct](#3---responding-issues-code-of-conduct)
+* [GitGud: Issue Submodel](#gitgud-issue-submodel)
+	* [1 - Issue Model](#1---issue-model)
+		* [1.1 - Title Guidelines](#11---title-guidelines)
+			* [1.1.1 - Tag Convention](#111---tag-convention)
+			* [1.1.2 - Flag Convention](#112---flag-convention)
+		* [1.2 - Description Guidelines](#12---description-guidelines)
+		* [1.3 - Logs Section Guidelines](#13---logs-section-guidelines)
+		* [1.4 - "How to reproduce" Section Guidelines](#14---how-to-reproduce-section-guidelines)
+		* [1.5 - "Additional Info" Section Guidelines](#15---additional-info-section-guidelines)
+	* [2 - Tip: Issues as todo lists for the team](#2---tip-issues-as-todo-lists-for-the-team)
+	* [3 - Responding Issues Code of Conduct](#3---responding-issues-code-of-conduct)
 
 ---
 

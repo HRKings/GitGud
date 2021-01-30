@@ -2,12 +2,12 @@
 
 **Table of Contents:**
 
-- [GitGud : A modular Git model](#gitgud--a-modular-git-model)
-	- [What is a submodel](#what-is-a-submodel)
-	- [History](#history)
-	- [Reasons to use GitGud](#reasons-to-use-gitgud)
-	- [Submodels](#submodels)
-	- [How to opt for GitGud](#how-to-opt-for-gitgud)
+* [GitGud : A modular Git model](#gitgud--a-modular-git-model)
+	* [What is a submodel](#what-is-a-submodel)
+	* [History](#history)
+	* [Reasons to use GitGud](#reasons-to-use-gitgud)
+	* [Submodels](#submodels)
+	* [Badges](#badges)
 
 ----
 
@@ -52,20 +52,32 @@ That is why we created the GitGud Model, to be a centralized place to gather all
 
 ----
 
-## How to opt for GitGud
+## Badges
 
-If you plan to use the GitGud Model, you need to put somewhere in your documentation, *README* or *CONTRIBUTING* that you are using the model or the submodels.
+If you plan to use the GitGud Model, you can put a badge somewhere in your documentation, *README* or *CONTRIBUTING*, to show that you are using the model or the submodels.
 
 Some examples:
 
+[![GitGud](https://img.shields.io/badge/GitGud-v1.0-red?style=flat-square)](https://github.com/HRKings/GitGud/tree/stable)
+
 ```Markdown
-This project uses the [GitGud Model](https://github.com/HRKings/GitGud).
+[![GitGud](https://img.shields.io/badge/GitGud-v1.0-red?style=flat-square)](https://github.com/HRKings/GitGud/tree/stable)
 ```
 
-```Markdown
-This project uses the following submodels from the [GitGud Model](https://github.com/HRKings/GitGud):
+[![GitGud Versioning](https://img.shields.io/badge/GitGud|Versioning-v1.0-blue?style=flat-square)](https://github.com/HRKings/GitGud/blob/stable/Versioning/Versioning.md)
 
-- [GitGud Versioning](https://github.com/HRKings/GitGud/Versioning/Versioning.md)
-- [GitGud Changelog](https://github.com/HRKings/GitGud/Versioning/Changelog.md)
-- [GitGud Flow](https://github.com/HRKings/GitGud/Flow/GitGud_Flow.md)
+```Markdown
+[![GitGud Versioning](https://img.shields.io/badge/GitGud|Versioning-v1.0-blue?style=flat-square)](https://github.com/HRKings/GitGud/blob/stable/Versioning/Versioning.md)
+```
+
+[![GitGud Changelog](https://img.shields.io/badge/GitGud|Changelog-v1.0-blue?style=flat-square)](https://github.com/HRKings/GitGud/blob/stable/Versioning/Changelog.md)
+
+```Markdown
+[![GitGud Changelog](https://img.shields.io/badge/GitGud|Changelog-v1.0-blue?style=flat-square)](https://github.com/HRKings/GitGud/blob/stable/Versioning/Changelog.md)
+```
+
+[![GitGud Flow](https://img.shields.io/badge/GitGud|Flow-v1.0-blue?style=flat-square)](https://github.com/HRKings/GitGud/blob/stable/Flow/GitGud_Flow.md)
+
+```Markdown
+[![GitGud Flow](https://img.shields.io/badge/GitGud|Flow-v1.0-blue?style=flat-square)](https://github.com/HRKings/GitGud/blob/stable/Flow/GitGud_Flow.md)
 ```

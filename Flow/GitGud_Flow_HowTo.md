@@ -2,16 +2,16 @@
 
 **Table of Contents:**
 
-- [How to GitGud Flow](#how-to-gitgud-flow)
-	- [1 - Creating branches](#1---creating-branches)
-		- [1.1 - Creating the Stable branch](#11---creating-the-stable-branch)
-			- [1.1.1 - Creating the stable branch on a existing project](#111---creating-the-stable-branch-on-a-existing-project)
-		- [1.2 - Creating a Working branch](#12---creating-a-working-branch)
-		- [1.3 - Creating a Hotfix branch](#13---creating-a-hotfix-branch)
-	- [2 - Publishing a branch](#2---publishing-a-branch)
-	- [3 - Merging a working branch](#3---merging-a-working-branch)
-		- [3.1 - Merging a Hotfix branch](#31---merging-a-hotfix-branch)
-	- [4 - Deleting a branch](#4---deleting-a-branch)
+* [How to GitGud Flow](#how-to-gitgud-flow)
+	* [1 - Creating branches](#1---creating-branches)
+		* [1.1 - Creating the Stable branch](#11---creating-the-stable-branch)
+			* [1.1.1 - Creating the stable branch on a existing project](#111---creating-the-stable-branch-on-a-existing-project)
+		* [1.2 - Creating a Working branch](#12---creating-a-working-branch)
+		* [1.3 - Creating a Hotfix branch](#13---creating-a-hotfix-branch)
+	* [2 - Publishing a branch](#2---publishing-a-branch)
+	* [3 - Merging a working branch](#3---merging-a-working-branch)
+		* [3.1 - Merging a Hotfix branch](#31---merging-a-hotfix-branch)
+	* [4 - Deleting a branch](#4---deleting-a-branch)
 
 ---
 

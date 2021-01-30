@@ -2,15 +2,15 @@
 
 **Table of Contents:**
 
-- [GitGud: Pull Request Submodel](#gitgud-pull-request-submodel)
-	- [1 - Guidelines](#1---guidelines)
-		- [1.1 - Writing Pull Requests Guidelines](#11---writing-pull-requests-guidelines)
-			- [1.1.1 - Title Guidelines](#111---title-guidelines)
-			- [1.1.2 - Body Guidelines](#112---body-guidelines)
-			- [1.1.3 - Footer Guidelines](#113---footer-guidelines)
-	- [2 - Code of Conduct](#2---code-of-conduct)
-		- [2.1 - Feedback Code of Conduct](#21---feedback-code-of-conduct)
-		- [2.2 - Feedback Response Code of Conduct](#22---feedback-response-code-of-conduct)
+* [GitGud: Pull Request Submodel](#gitgud-pull-request-submodel)
+	* [1 - Guidelines](#1---guidelines)
+		* [1.1 - Writing Pull Requests Guidelines](#11---writing-pull-requests-guidelines)
+			* [1.1.1 - Title Guidelines](#111---title-guidelines)
+			* [1.1.2 - Body Guidelines](#112---body-guidelines)
+			* [1.1.3 - Footer Guidelines](#113---footer-guidelines)
+	* [2 - Code of Conduct](#2---code-of-conduct)
+		* [2.1 - Feedback Code of Conduct](#21---feedback-code-of-conduct)
+		* [2.2 - Feedback Response Code of Conduct](#22---feedback-response-code-of-conduct)
 
 ---
 

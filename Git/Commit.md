@@ -2,18 +2,18 @@
 
 **Table of Contents:**
 
-- [GitGud: Commit Submodel](#gitgud-commit-submodel)
-	- [1 - Best Practices](#1---best-practices)
-	- [2 - Commit Message Model](#2---commit-message-model)
-		- [1.1 - Tag](#11---tag)
-			- [1.1.1 - Tag Convention](#111---tag-convention)
-		- [1.2 - Flag](#12---flag)
-			- [1.2.1 - Flag Convention](#121---flag-convention)
-		- [1.3 - Subject](#13---subject)
-			- [1.3.1 - Subject Convention](#131---subject-convention)
-		- [1.4 - Footer](#14---footer)
-			- [1.4.1 - Footer Convention](#141---footer-convention)
-	- [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
+* [GitGud: Commit Submodel](#gitgud-commit-submodel)
+	* [1 - Best Practices](#1---best-practices)
+	* [2 - Commit Message Model](#2---commit-message-model)
+		* [1.1 - Tag](#11---tag)
+			* [1.1.1 - Tag Convention](#111---tag-convention)
+		* [1.2 - Flag](#12---flag)
+			* [1.2.1 - Flag Convention](#121---flag-convention)
+		* [1.3 - Subject](#13---subject)
+			* [1.3.1 - Subject Convention](#131---subject-convention)
+		* [1.4 - Footer](#14---footer)
+			* [1.4.1 - Footer Convention](#141---footer-convention)
+	* [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
 
 ---
 
