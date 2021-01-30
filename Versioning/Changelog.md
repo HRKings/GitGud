@@ -2,21 +2,21 @@
 
 **Table of Contents:**
 
-- [GitGud: Changelog Submodel](#gitgud-changelog-submodel)
-	- [1 - Changelog Model](#1---changelog-model)
-		- [1.1 - Title Guidelines](#11---title-guidelines)
-		- [1.2 - Body Guidelines](#12---body-guidelines)
-		- [1.3 - 'Unreleased Section' Guidelines](#13---unreleased-section-guidelines)
-		- [1.4 - 'Headline (Version and Date)' Guidelines](#14---headline-version-and-date-guidelines)
-		- [1.5 - 'Added Section' Guidelines](#15---added-section-guidelines)
-		- [1.6 - 'Changed Section' Guidelines](#16---changed-section-guidelines)
-		- [1.7 - 'Updated Section' Guidelines](#17---updated-section-guidelines)
-		- [1.8 - 'Deprecated Section' Guidelines](#18---deprecated-section-guidelines)
-		- [1.9 - 'Removed Section' Guidelines](#19---removed-section-guidelines)
-		- [1.10 - 'Fixed Section' Guidelines](#110---fixed-section-guidelines)
-		- [1.11 - 'Issues Section' Guidelines](#111---issues-section-guidelines)
-	- [2 - Changelog Convention](#2---changelog-convention)
-	- [3 - Flags Guidelines](#3---flags-guidelines)
+* [GitGud: Changelog Submodel](#gitgud-changelog-submodel)
+	* [1 - Changelog Model](#1---changelog-model)
+		* [1.1 - Title Guidelines](#11---title-guidelines)
+		* [1.2 - Body Guidelines](#12---body-guidelines)
+		* [1.3 - 'Unreleased Section' Guidelines](#13---unreleased-section-guidelines)
+		* [1.4 - 'Headline (Version and Date)' Guidelines](#14---headline-version-and-date-guidelines)
+		* [1.5 - 'Added Section' Guidelines](#15---added-section-guidelines)
+		* [1.6 - 'Changed Section' Guidelines](#16---changed-section-guidelines)
+		* [1.7 - 'Updated Section' Guidelines](#17---updated-section-guidelines)
+		* [1.8 - 'Deprecated Section' Guidelines](#18---deprecated-section-guidelines)
+		* [1.9 - 'Removed Section' Guidelines](#19---removed-section-guidelines)
+		* [1.10 - 'Fixed Section' Guidelines](#110---fixed-section-guidelines)
+		* [1.11 - 'Issues Section' Guidelines](#111---issues-section-guidelines)
+	* [2 - Changelog Convention](#2---changelog-convention)
+	* [3 - Flags Guidelines](#3---flags-guidelines)
 
 Changelogs are human-readable files created to keep track of notabel changes in each release.
 
