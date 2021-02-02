@@ -11,8 +11,10 @@
 			* [1.2.1 - Flag Convention](#121---flag-convention)
 		* [1.3 - Subject](#13---subject)
 			* [1.3.1 - Subject Convention](#131---subject-convention)
-		* [1.4 - Footer](#14---footer)
-			* [1.4.1 - Footer Convention](#141---footer-convention)
+		* [1.4 - Body](#14---body)
+			* [1.4.1 - Body Convention](#141---body-convention)
+		* [1.5 - Footer](#15---footer)
+			* [1.5.1 - Footer Convention](#151---footer-convention)
 	* [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
 
 ---
@@ -41,6 +43,8 @@ The default template provided by this submodel is the following:
 
 ```Markdown
 [tag]{flag (optional)} Subject
+
+Body (Optional)
 
 Footer (Optional)
 ```
@@ -105,11 +109,20 @@ This is the line that will show in the commit history, and contains a short desc
 - It shout be around 50 characters but with a limit of 80;
 - It should begin with a capital letter and be written in the imperative (eg.: **"Add"** instead of *"Added"* or *"Adds"*).
 
-### 1.4 - Footer
+### 1.4 - Body
+
+The body is an optional section where you can offer a more detailed description of the commit, while there is no real limit, keep it short, around 100 characters.
+
+#### 1.4.1 - Body Convention
+
+- The body should be separated of the subject by one blank line;
+- It shout be wrapped in about 100 characters.
+
+### 1.5 - Footer
 
 The footer is optional and used when a issue/bug tracker is used. It is used to reference/close an bug/issue ID.
 
-#### 1.4.1 - Footer Convention
+#### 1.5.1 - Footer Convention
 
 - The footer is only used when a issue/bug tracker is in use on the project;
 - It should be separated from the body or subject by one blank line.
@@ -119,10 +132,7 @@ The footer is optional and used when a issue/bug tracker is used. It is used to 
 ```XML
 [feature]{!!!}{wip} Around 50 characters to a 80 limit
 
-More detailed explanatory text, wrapped in about 70 characters. Separated by a blank line in the start.
-
-* Bullet lists
-* Are nice
+More detailed explanatory text, wrapped in about 100 characters. Separated by a blank line in the start.
 
 Resolves: #123
 See also: #456, #789
