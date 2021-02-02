@@ -134,13 +134,18 @@ The footer is optional and used when a issue/bug tracker is used. It is used to 
 
 More detailed explanatory text, wrapped in about 100 characters. Separated by a blank line in the start.
 
-Resolves: #123
+Closes: #123
 See also: #456, #789
 ```
 
-Or more conventional and practical example:
+Or more conventional and practical examples:
 
 ```Markdown
 [docs] Fix typo in README.md
-[feature]{!!!}{api} Add new api call. Resolve #123
+```
+
+```Markdown
+[feature]{!!!}{api} Add new api call.
+
+Closes: #123
 ```
