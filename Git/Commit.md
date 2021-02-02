@@ -126,6 +126,12 @@ The footer is optional and used when a issue/bug tracker is used. It is used to 
 
 - The footer is only used when a issue/bug tracker is in use on the project;
 - It should be separated from the body or subject by one blank line.
+- If a issue/bug is closed, then its ID should be put after a "Closes: " message, and
+	- For example: *Closes: #123* or *Closes: #123, #456*
+- If a issue/bug is referenced, then its ID should be put after a "See also: " message
+	- For example: *See also: #123* or *See also: #123, #456*
+- Multiple IDs need to be comma `,` separated
+- IDs need to be prefixed with a hash `#`
 
 ## 3 - An example of a good commit message
 
