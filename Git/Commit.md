@@ -64,7 +64,6 @@ Tags and their usage cases:
 - `[docs]` : Changes in documentation, readme, guides, etc.;
 - `[chore]` : Updating dependencies, package manager configs, build tasks, etc;
 - `[misc]` : Anything not covered by the above categories.
-
 - `[merge]` : Special tag used only when merging pull requests, mainly used by the [Flow Submodel](../Flow/GitGud_Flow.md).
 
 #### 1.1.1 - Tag Convention
@@ -154,7 +153,7 @@ Or more conventional and practical examples:
 ```
 
 ```Markdown
-[feature]{!!!}{api} Add new api call.
+[feature]{!!!}{api} Add new api call
 
 Closes: #123
 ```
