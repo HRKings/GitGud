@@ -19,7 +19,7 @@
 
 ---
 
-This submodel aims to provide best practices, naming conventions and guidelines about commits, as they are the essence of Git.
+This submodel aims to provide best practices, naming conventions and guidelines about commits, as they are the essence of Git. It also aims to ease automation of changelogs.
 
 ## 1 - Best Practices
 
