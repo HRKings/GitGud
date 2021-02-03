@@ -56,13 +56,16 @@ Tags are usually the first thing in a commit message, they hit to what the commi
 Tags and their usage cases:
 
 - `[feature]` : A new feature and small additions;
-- `[fix]` : A bugfix or hotfix
+- `[change]` : Any changes on existing functionality;
+- `[fix]` : A bugfix or hotfix;
 - `[style]` : Any change in styling, layout, css, design, etc.;
 - `[refactor]` : Any code refactoring, cleanup, formatting, improvements in code style and readability;
 - `[test]` : Adding, changing or refactoring tests, with no production code change;
 - `[docs]` : Changes in documentation, readme, guides, etc.;
 - `[chore]` : Updating dependencies, package manager configs, build tasks, etc;
 - `[misc]` : Anything not covered by the above categories.
+
+- `[merge]` : Special tag used only when merging pull requests, mainly used by the [Flow Submodel](../Flow/GitGud_Flow.md).
 
 #### 1.1.1 - Tag Convention
 
