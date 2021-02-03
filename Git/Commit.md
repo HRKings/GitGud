@@ -82,6 +82,8 @@ Flags and their usages:
 - `{db}` : Changes that require database structure or data to be updated;
 - `{api}` : Changes that modify the API usage, models or structure.
 - `{ux}` : Change in user experience - Anything that needs the user to relearn to use a feature;
+- `{dpc}` : *Deprecated* - Commits with this flag deprecates existing code;
+- `{rm}` : *Code Removal* - Means that this commit removes old/legacy/deprecated code;
 - `{wip}` : *Work In Progress* - All commits related to a feature/change will have this flag, and will only be removed when the final version of a feature/change is available. Commits marked as WIP can never be merged.
 
 #### 1.2.1 - Flag Convention
