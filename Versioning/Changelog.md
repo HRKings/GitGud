@@ -10,11 +10,12 @@
 		* [1.4 - 'Headline (Version and Date)' Guidelines](#14---headline-version-and-date-guidelines)
 		* [1.5 - 'Added Section' Guidelines](#15---added-section-guidelines)
 		* [1.6 - 'Changed Section' Guidelines](#16---changed-section-guidelines)
-		* [1.7 - 'Updated Section' Guidelines](#17---updated-section-guidelines)
-		* [1.8 - 'Deprecated Section' Guidelines](#18---deprecated-section-guidelines)
-		* [1.9 - 'Removed Section' Guidelines](#19---removed-section-guidelines)
-		* [1.10 - 'Fixed Section' Guidelines](#110---fixed-section-guidelines)
-		* [1.11 - 'Issues Section' Guidelines](#111---issues-section-guidelines)
+		* [1.7 - 'Breaking Changes Section' Guidelines](#17---breaking-changes-section-guidelines)
+		* [1.8 - 'Fixed Section' Guidelines](#18---fixed-section-guidelines)
+		* [1.9 - 'Updated Section' Guidelines](#19---updated-section-guidelines)
+		* [1.10 - 'Deprecated Section' Guidelines](#110---deprecated-section-guidelines)
+		* [1.11 - 'Removed Section' Guidelines](#111---removed-section-guidelines)
+		* [1.12 - 'Issues Section' Guidelines](#112---issues-section-guidelines)
 	* [2 - Changelog Convention](#2---changelog-convention)
 	* [3 - Flags Guidelines](#3---flags-guidelines)
 
@@ -22,7 +23,7 @@ Changelogs are human-readable files created to keep track of notabel changes in 
 
 In the GitGud model (mainly in the [GitGud Flow](../Flow/GitGud_Flow.md)), changelogs are required each time a new branch are merged in one of the versioning branches and they need to follow the [Versioning Model](Versioning_Guide.md).
 
-This model is a modification of the [Keep a Changelog](keepachangelog.com/), all will try to integrate any changes made to the original document.
+This model is a modification and expansion of the [Keep a Changelog](keepachangelog.com/), all will *try* to integrate any significant changes made to the original document.
 
 ## 1 - Changelog Model
 
@@ -41,15 +42,15 @@ Body
 
 ### Added
 
-### Changed
-
 ### Updated
+
+### Breaking Changes
+
+### Fixed
 
 ### Deprecated
 
 ### Removed
-
-### Fixed
 
 ### Issues
 ```
@@ -91,23 +92,27 @@ This is a section reserved for new additions and features
 
 Keep here all the changes in existing functionality.
 
-### 1.7 - 'Updated Section' Guidelines
+### 1.7 - 'Breaking Changes Section' Guidelines
+
+Here is where you will list any significant changes to existing functionality that breaks compatibility with previous releases.
+
+### 1.8 - 'Fixed Section' Guidelines
+
+This section hold any issues\bugs that were fixed in this release.
+
+### 1.9 - 'Updated Section' Guidelines
 
 Here is where you will list any updates to dependencies, frameworks, etc.
 
-### 1.8 - 'Deprecated Section' Guidelines
+### 1.10 - 'Deprecated Section' Guidelines
 
 List here all features and functionalities that will be removed soon. Usually what gets deprecated, gets removed in the next release.
 
-### 1.9 - 'Removed Section' Guidelines
+### 1.11 - 'Removed Section' Guidelines
 
 Here will be all features and functionality that was removed in this release.
 
-### 1.10 - 'Fixed Section' Guidelines
-
-This section hold any issues that were fixed in this release.
-
-### 1.11 - 'Issues Section' Guidelines
+### 1.12 - 'Issues Section' Guidelines
 
 List in here any issue found in this release that will be patched, security vulnerabilities, yet-to-be fixed bugs and potential issues that people could encounter when using this release.
 
@@ -131,7 +136,6 @@ Flags are very useful, they reflect some information to the people reading the c
 
 The flags are:
 
-- `{!!!}` : *Breaking change* - Significant changes in the release architecture and/or logic, that affects existing releases. **If present, needs to be the first flag**;
 - `{DB}` : Changes that require database structure or data to be updated;
 - `{API}` : Changes that modify the API usage, models or structure.
 - `{UX}` : Change in user experience - Anything that needs the user to relearn to use a feature.
