@@ -19,7 +19,7 @@
 	* [2 - Changelog Convention](#2---changelog-convention)
 	* [3 - Flags Guidelines](#3---flags-guidelines)
 
-Changelogs are human-readable files created to keep track of notabel changes in each release.
+Changelogs are human-readable files created to keep track of notable changes in each release.
 
 In the GitGud model (mainly in the [GitGud Flow](../Flow/GitGud_Flow.md)), changelogs are required each time a new branch are merged in one of the versioning branches and they need to follow the [Versioning Model](Versioning_Guide.md).
 
