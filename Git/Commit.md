@@ -43,9 +43,9 @@ The default template provided by this submodel is the following:
 
 ```Markdown
 [tag]{flag (optional)} Subject
-
+~~~
 Body (Optional)
-
+~~~
 Footer (Optional)
 ```
 
@@ -120,7 +120,7 @@ The body is an optional section where you can offer a more detailed description 
 
 #### 1.4.1 - Body Convention
 
-- The body should be separated of the subject by one blank line;
+- The body should be separated of the subject by one line containing three tildes `~~~`;
 - It shout be wrapped in about 100 characters.
 
 ### 1.5 - Footer
@@ -130,7 +130,7 @@ The footer is optional and used when a issue/bug tracker is used. It is used to 
 #### 1.5.1 - Footer Convention
 
 - The footer is only used when a issue/bug tracker is in use on the project;
-- It should be separated from the body or subject by one blank line.
+- It should be separated from the body or subject by one line containing three tildes `~~~`;
 - If a issue/bug is closed, then its ID should be put after a "Closes: " message, and
 	- For example: *Closes: #123* or *Closes: #123, #456*
 - If a issue/bug is referenced, then its ID should be put after a "See also: " message
@@ -142,9 +142,9 @@ The footer is optional and used when a issue/bug tracker is used. It is used to 
 
 ```XML
 [feature]{!!!}{wip} Around 50 characters to a 80 limit
-
-More detailed explanatory text, wrapped in about 100 characters. Separated by a blank line in the start.
-
+~~~
+More detailed explanatory text, wrapped in about 100 characters. Separated by one line containing three tildes `~~~`
+~~~
 Closes: #123
 See also: #456, #789
 ```
@@ -157,6 +157,6 @@ Or more conventional and practical examples:
 
 ```Markdown
 [feature]{!!!}{api} Add new api call
-
+~~~
 Closes: #123
 ```
