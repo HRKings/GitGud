@@ -89,17 +89,18 @@ Flags and their usages:
 #### 1.2.1 - Flag Convention
 
 - Flags goes after the tag;
-- Flags need to be encased in curly braces `{}`;
-- Flags are always written in lowercase.
+- The flags section need to be encased in curly braces `{}`;
+- Flags are always written in lowercase;
+- If multiple flags are present, they need to be separated by a slash `/`.
 
 Example of tag usage:
 
 ```XML
-[feature]{!!!}{ux}{db}{api}{wip} Commit message here
-[chore]{ux}{db}{api} Commit message here
+[feature]{!!!/ux/db/api/wip} Commit message here
+[chore]{ux/db/api} Commit message here
 [feature]{wip} Commit message here
-[feature]{!!!}{db} Commit message here
-[style]{ux}{wip} Commit message here
+[feature]{!!!/db} Commit message here
+[style]{ux/wip} Commit message here
 [feature]{!!!} Commit message here
 ```
 
