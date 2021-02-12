@@ -4,6 +4,7 @@
 
 * [How to GitGud Flow](#how-to-gitgud-flow)
 	* [1 - Creating branches](#1---creating-branches)
+		* [1.0 - When initialing the repository for the first time](#10---when-initialing-the-repository-for-the-first-time)
 		* [1.1 - Creating the Stable branch](#11---creating-the-stable-branch)
 			* [1.1.1 - Creating the stable branch on a existing project](#111---creating-the-stable-branch-on-a-existing-project)
 		* [1.2 - Creating a Working branch](#12---creating-a-working-branch)
@@ -21,13 +22,25 @@ This guid lists the commands necessary to use [GitGud Flow](GitGud_Flow.md) from
 
 Creating branches is one of the main thing you will be doing while developing, those are the commands used.
 
-### 1.1 - Creating the Stable branch
+### 1.0 - When initialing the repository for the first time
 
-This command creates an empty Stable branch, and push it to the remote.
+If you need to initialize your repository for the first time, you can use:
 
 ```Bash
-git checkout --orphan stable
-git commit --allow-empty -m "[misc] Stable branch start"
+git init
+git checkout -b master
+git add .
+git commit -am "[misc] Initial commit"
+```
+
+And then create the stable branch.
+
+### 1.1 - Creating the Stable branch
+
+This command creates a Stable branch, and push it to the remote.
+
+```Bash
+git checkout -b stable
 git push origin stable
 ```
 
@@ -35,16 +48,15 @@ This will create a stable branch with only one empty commit.
 
 #### 1.1.1 - Creating the stable branch on a existing project
 
-If you already have a project and want to opt for GitGud Flow model, you need an empty stable branch, you can create one using:
+If you already have a project and want to opt for GitGud Flow model, you need to branch the stable from master, using:
 
 ```Bash
-git checkout --orphan stable
-git rm -rf .
-git commit --allow-empty -m "[misc] Stable branch start"
+git checkout master
+git checkout -b stable
 git push origin stable
 ```
 
-This will create a stable branch, remove any staged files, create an empty commit and push it to the remote.
+This will create a stable branch and push it to the remote.
 
 ### 1.2 - Creating a Working branch
 
