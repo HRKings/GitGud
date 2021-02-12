@@ -88,7 +88,17 @@ This is your release ready branch, here will be only the latest production ready
 
 - You only merge from master, once all the changes from a version are ready;
 - You can only merge hotfix branches;
-- When merging, you should always make a Pull Request with a changelog and squash the commits.
+- When merging, you should always make a Pull Request with a changelog and optionally squash the commits;
+- The merge commit message must follow the rules:
+  - The message must start the `[merge]` tag and reference the Pull Request number and contain a version, for example:
+  - - `[merge] VERSION on PR #N`, where *VERSION* is the new stable version and *N* is the Pull Request number, like: `[merge] 1.0.5 on PR #N`.
+
+**Merge Commit message exemples:**
+
+- `[merge] Complete: Add REST API on PR #123`
+- `[merge] Fix: Server crash on PR #456`
+- `[merge] Complete: Remove login page on PR #789`
+- `[merge] Complete: Update dependencies on PR #321`
 
 #### 2.1.3 - Stable Branch Naming Convention
 
@@ -113,7 +123,7 @@ This branch is where all the development progress will be made, all features, fi
 - You can merge any fix;
 - You can merge any chore branch;
 - If working with a team : When merging you should make a Pull Request, with a custom commit message:
-  - The message must contain the `[merge]` tag and reference the branch name and the Pull Request number, for exemple:
+  - The message must start the `[merge]` tag and reference the branch name and the Pull Request number, for example:
   - `[merge] Complete: SUBJECT on PR #N`, where *SUBJECT* is what feature is being added/updated/removed and *N* is the Pull Request number;
   - `[merge] Fix: SUBJECT on PR #N`, where *SUBJECT* is what problem is being fixed and *N* is the Pull Request number.
 - If working alone : merge the branch directly.
