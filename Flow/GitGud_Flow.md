@@ -4,6 +4,7 @@
 
 * [GitGud Flow : Branching Submodel](#gitgud-flow--branching-submodel)
 	* [1 - The Model](#1---the-model)
+		* [1.1 - The basic working of this flow](#11---the-basic-working-of-this-flow)
 	* [2 - Permanent Branches](#2---permanent-branches)
 		* [2.1 - Stable Branch](#21---stable-branch)
 			* [2.1.1 - Stable Branch Guidelines](#211---stable-branch-guidelines)
@@ -63,12 +64,14 @@ Here is the list of branch types in GitGud Flow:
 
 Remember that those are only the types of the branches, but the naming is up to you.
 
-The basic working of this flow is:
+### 1.1 - The basic working of this flow
 
 1. You branch off the master branch;
 2. You make modifications;
 3. You merge back into master branch once is ready;
 4. You then merge master branch into the stable branch via Pull Request once all the changes are complete.
+
+![GitGud Flow Branching Graph](../.resources/GitGud_Flow.png)
 
 ## 2 - Permanent Branches
 
