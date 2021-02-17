@@ -94,14 +94,7 @@ This is your release ready branch, here will be only the latest production ready
 - When merging, you should always make a Pull Request with a changelog and optionally squash the commits;
 - The merge commit message must follow the rules:
   - The message must start the `[merge]` tag and reference the Pull Request number and contain a version, for example:
-  - - `[merge] VERSION on PR #N`, where *VERSION* is the new stable version and *N* is the Pull Request number, like: `[merge] 1.0.5 on PR #N`.
-
-**Merge Commit message exemples:**
-
-- `[merge] Complete: Add REST API on PR #123`
-- `[merge] Fix: Server crash on PR #456`
-- `[merge] Complete: Remove login page on PR #789`
-- `[merge] Complete: Update dependencies on PR #321`
+  - `[merge] VERSION on PR #N`, where *VERSION* is the new stable version and *N* is the Pull Request number, like: `[merge] 1.0.5 on PR #5`.
 
 #### 2.1.3 - Stable Branch Naming Convention
 
