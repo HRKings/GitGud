@@ -11,7 +11,7 @@
 
 ----
 
-Git, without doubt is one of the greatest development tools in existence, but using the right way is a difficult thing, while you can search the internet for articles and various models, you can start getting a lot of tabs open and many models to follow and opt-in. With this problem in mind that we created the GitGud Model, it covers everything, from commit messages to changelogs. You can chose to use only one of the submodels or all of them, or even create your own guidelines based on it, the choice is yours.
+Git, without doubt is one of the greatest development tools in existence, but using the right way is a difficult thing, while you can search the internet for articles and various models, you can start getting a lot of tabs open and many models to follow and opt-in. With this problem in mind that we created the GitGud Model, it covers everything, from commit messages to changelogs. You can chose to use only one of the submodels or all of them, or even create your own guidelines based on it, the choice is yours. An official CLI is available [right here](https://github.com/HRKings/GitGudCLI), to ease the use of this model.
 
 ## What is a submodel
 
