@@ -42,7 +42,7 @@ GitGud Flow is a branching model that helps maintaining your code clean and reli
 
 GitGud flow is heavily based from the standard Git Flow, but with some differences. First of all, it is a lot simpler. You merge into master directly and then use another branch to CD. Some naming was also changed to make it more broader and comprehensive.
 
-**Disclaimer:** This guide use the [Commit Guide](../Topics/Commit.md) and the [Pull Request Guide](../Topics/Pull_Request.md) from GitGud. Use them as a base anytime it references any of these two features.
+**Disclaimer:** This guide use the [Commit Guide](../Git/Commit.md) and the [Pull Request Guide](../Git/Pull_Request.md) from GitGud. Use them as a base anytime it references any of these two features.
 
 ## 1 - The Model
 
