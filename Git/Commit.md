@@ -2,20 +2,20 @@
 
 **Table of Contents:**
 
-* [GitGud: Commit Submodel](#gitgud-commit-submodel)
-	* [1 - Best Practices](#1---best-practices)
-	* [2 - Commit Message Model](#2---commit-message-model)
-		* [1.1 - Tag](#11---tag)
-			* [1.1.1 - Tag Convention](#111---tag-convention)
-		* [1.2 - Flag](#12---flag)
-			* [1.2.1 - Flag Convention](#121---flag-convention)
-		* [1.3 - Subject](#13---subject)
-			* [1.3.1 - Subject Convention](#131---subject-convention)
-		* [1.4 - Body](#14---body)
-			* [1.4.1 - Body Convention](#141---body-convention)
-		* [1.5 - Footer](#15---footer)
-			* [1.5.1 - Footer Convention](#151---footer-convention)
-	* [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
+- [GitGud: Commit Submodel](#gitgud-commit-submodel)
+	- [1 - Best Practices](#1---best-practices)
+	- [2 - Commit Message Model](#2---commit-message-model)
+		- [1.1 - Tag](#11---tag)
+			- [1.1.1 - Tag Convention](#111---tag-convention)
+		- [1.2 - Flag](#12---flag)
+			- [1.2.1 - Flag Convention](#121---flag-convention)
+		- [1.3 - Subject](#13---subject)
+			- [1.3.1 - Subject Convention](#131---subject-convention)
+		- [1.4 - Body](#14---body)
+			- [1.4.1 - Body Convention](#141---body-convention)
+		- [1.5 - Footer](#15---footer)
+			- [1.5.1 - Footer Convention](#151---footer-convention)
+	- [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
 
 ---
 
@@ -62,7 +62,7 @@ Tags and their usage cases:
 - `[refactor]` : Any code refactoring, cleanup, formatting, improvements in code style and readability;
 - `[test]` : Adding, changing or refactoring tests, with no production code change;
 - `[docs]` : Changes in documentation, readme, guides, etc.;
-- `[chore]` : Updating dependencies, package manager configs, build tasks, etc;
+- `[chore]` : Updates/Removes/Adds dependencies, package manager configs, build tasks, etc;
 - `[misc]` : Anything not covered by the above categories.
 - `[merge]` : Special tag used only when merging pull requests, mainly used by the [Flow Submodel](../Flow/GitGud_Flow.md).
 
