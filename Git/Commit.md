@@ -3,19 +3,21 @@
 **Table of Contents:**
 
 - [GitGud: Commit Submodel](#gitgud-commit-submodel)
-	- [1 - Best Practices](#1---best-practices)
-	- [2 - Commit Message Model](#2---commit-message-model)
-		- [1.1 - Tag](#11---tag)
-			- [1.1.1 - Tag Convention](#111---tag-convention)
-		- [1.2 - Flag](#12---flag)
-			- [1.2.1 - Flag Convention](#121---flag-convention)
-		- [1.3 - Subject](#13---subject)
-			- [1.3.1 - Subject Convention](#131---subject-convention)
-		- [1.4 - Body](#14---body)
-			- [1.4.1 - Body Convention](#141---body-convention)
-		- [1.5 - Footer](#15---footer)
-			- [1.5.1 - Footer Convention](#151---footer-convention)
-	- [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
+  - [1 - Best Practices](#1---best-practices)
+  - [2 - Commit Message Model](#2---commit-message-model)
+    - [2.1 - Tag](#21---tag)
+      - [2.1.1 - Tag Convention](#211---tag-convention)
+    - [2.2 - Flag](#22---flag)
+      - [2.2.1 - Flag Convention](#221---flag-convention)
+    - [2.3 - Scope](#23---scope)
+      - [2.3.1 - Scope Convention](#231---scope-convention)
+    - [2.4 - Subject](#24---subject)
+      - [2.4.1 - Subject Convention](#241---subject-convention)
+    - [2.5 - Body](#25---body)
+      - [2.5.1 - Body Convention](#251---body-convention)
+    - [2.6 - Footer](#26---footer)
+      - [2.6.1 - Footer Convention](#261---footer-convention)
+  - [3 - An example of a good commit message](#3---an-example-of-a-good-commit-message)
 
 ---
 
@@ -49,7 +51,7 @@ Body (Optional)
 Footer (Optional)
 ```
 
-### 1.1 - Tag
+### 2.1 - Tag
 
 Tags are usually the first thing in a commit message, they hit to what the commit is about, and ease searching later.
 
@@ -66,13 +68,13 @@ Tags and their usage cases:
 - `[misc]` : Anything not covered by the above categories.
 - `[merge]` : Special tag used only when merging pull requests, mainly used by the [Flow Submodel](../Flow/GitGud_Flow.md).
 
-#### 1.1.1 - Tag Convention
+#### 2.1.1 - Tag Convention
 
 - Tags goes before everything;
 - Tags need to be encased in square brackets `[]`;
 - They are always written in lower case.
 
-### 1.2 - Flag
+### 2.2 - Flag
 
 Flags are short symbols or abbreviations that help understand better the code or to take precautions when pulling this changes.
 
@@ -86,7 +88,7 @@ Flags and their usages:
 - `{rm}` : *Code Removal* - Means that this commit removes old/legacy/deprecated code;
 - `{wip}` : *Work In Progress* - All commits related to a feature/change will have this flag, and will only be removed when the final version of a feature/change is available. Commits marked as WIP can never be merged.
 
-#### 1.2.1 - Flag Convention
+#### 2.2.1 - Flag Convention
 
 - Flags goes after the tag;
 - The flags section need to be encased in curly braces `{}`;
@@ -104,30 +106,49 @@ Example of tag usage:
 [feature]{!!!} Commit message here
 ```
 
-### 1.3 - Subject
+### 2.3 - Scope
+
+A Scope is the affected area of the code by the commit, while verbose it is useful to have an idea at glance of what part or domain of the code is being affected by the commit in question.
+
+#### 2.3.1 - Scope Convention
+
+- Scope goes after the tag;
+  - If flags are present, the scope goes after them;
+- The scope section need to be encased in parentheses `()`;
+
+Example of scope usage:
+
+```XML
+[chore](scope) Commit message here
+[feature]{!!!/db}(scope) Commit message heree
+[feature]{!!!/ux/db/api/wip}(scope) Commit message here
+[feature]{wip}(scope) Commit message here
+```
+
+### 2.4 - Subject
 
 This is the line that will show in the commit history, and contains a short descriptive message about the changes.
 
-#### 1.3.1 - Subject Convention
+#### 2.4.1 - Subject Convention
 
 - The subject is always the first line of the commit message;
 - It shout be around 50 characters but with a limit of 80;
 - It should begin with a capital letter and be written in the imperative (eg.: **"Add"** instead of *"Added"* or *"Adds"*).
 
-### 1.4 - Body
+### 2.5 - Body
 
 The body is an optional section where you can offer a more detailed description of the commit, while there is no real limit, keep it short, around 100 characters.
 
-#### 1.4.1 - Body Convention
+#### 2.5.1 - Body Convention
 
 - The body should be separated of the subject by one line containing three tildes `~~~`;
 - It shout be wrapped in about 100 characters.
 
-### 1.5 - Footer
+### 2.6 - Footer
 
 The footer is optional and used when a issue/bug tracker is used. It is used to reference/close an bug/issue ID.
 
-#### 1.5.1 - Footer Convention
+#### 2.6.1 - Footer Convention
 
 - The footer is only used when a issue/bug tracker is in use on the project;
 - It should be separated from the body or subject by one line containing three tildes `~~~`;
